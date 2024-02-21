@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
     [SerializeField] private float speed = 10.0f;
-    [SerializeField] private float gravity = 10.0f;
     [SerializeField] private float maxVelocityChange = 10.0f;
 
     [SerializeField] private float jumpForce;
@@ -21,10 +20,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float velocityThreshold;
 
     private bool isGround = true;
-    private float currVelocity = 0f;
+    // private float currVelocity = 0f;
 
     float XIntent = 0;
-    float ZIntent = 0;
 
     // Start is called before the first frame update
     void Awake()
@@ -47,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         rb.AddForce(Vector3.down * jumpForce * gravityMultiplier, ForceMode.Acceleration);
-        currVelocity = rb.velocity.x;
+        // currVelocity = rb.velocity.x;
 
         Vector3 targetVelocity = new Vector3(XIntent, 0, 0);
 
