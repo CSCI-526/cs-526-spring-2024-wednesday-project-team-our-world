@@ -56,4 +56,8 @@ public class MovingPlatformScript : MonoBehaviour
 
     }
 
+    public void Reset() {
+        touched = false;
+    }
+
 }

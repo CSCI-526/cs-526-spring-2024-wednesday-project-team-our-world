@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditorInternal.ReorderableList;
-using UnityEngine.InputSystem.EnhancedTouch;
-using static UnityEngine.Rendering.VolumeComponent;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
@@ -40,28 +35,32 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        if (GameManager.Instance.State == GameManager.GameState.MirrorLevel) {
-            XIntent *= -1;
+        if (GameManager.Instance.State != GameManager.GameState.PauseGame) {
+            if (GameManager.Instance.State == GameManager.GameState.MirrorLevel) {
+                XIntent *= -1;
+            }
+
+            rb.AddForce(Vector3.down * jumpForce * gravityMultiplier, ForceMode.Acceleration);
+            // currVelocity = rb.velocity.x;
+
+            Vector3 targetVelocity = new Vector3(XIntent, 0, 0);
+
+            targetVelocity *= speed;
+
+            Vector3 velocity = rb.velocity;
+            Vector3 velocityChange = (targetVelocity - velocity);
+
+            velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
+            velocityChange.z = 0;
+            velocityChange.y = 0;
+
+            rb.AddForce(velocityChange, ForceMode.VelocityChange);
+
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
+                Jump();
+        } else {
+            rb.Sleep();
         }
-
-        rb.AddForce(Vector3.down * jumpForce * gravityMultiplier, ForceMode.Acceleration);
-        // currVelocity = rb.velocity.x;
-
-        Vector3 targetVelocity = new Vector3(XIntent, 0, 0);
-
-        targetVelocity *= speed;
-
-        Vector3 velocity = rb.velocity;
-        Vector3 velocityChange = (targetVelocity - velocity);
-
-        velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
-        velocityChange.z = 0;
-        velocityChange.y = 0;
-
-        rb.AddForce(velocityChange, ForceMode.VelocityChange);
-
-        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
-            Jump();
 
     }
 

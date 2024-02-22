@@ -28,4 +28,8 @@ public class StationaryPlatformScript : MonoBehaviour
             touched = true;
     }
 
+    public void Reset() {
+        touched = false;
+    }
+
 }
