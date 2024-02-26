@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelParent: {fileID: 2092473618}
+  debugAngle: 90
 --- !u!1 &197224328
 GameObject:
   m_ObjectHideFlags: 0
