@@ -361,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 396352724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.1, y: 5.44, z: 0}
+  m_LocalPosition: {x: 5.1, y: 9.74, z: 0}
   m_LocalScale: {x: 6, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -466,8 +466,8 @@ Transform:
   m_GameObject: {fileID: 468309323}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.18, y: -5.63, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -16.35, y: -1.61, z: 0}
+  m_LocalScale: {x: 6, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2005547251}
@@ -834,7 +834,7 @@ Transform:
   m_GameObject: {fileID: 728070171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.24, y: 1.5999999, z: 0}
+  m_LocalPosition: {x: -3.24, y: 6.04, z: 0}
   m_LocalScale: {x: 6, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -939,7 +939,7 @@ Transform:
   m_GameObject: {fileID: 781294767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -2.63, z: 0}
+  m_LocalPosition: {x: -12, y: 3.56, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1031,7 +1031,7 @@ GameObject:
   m_Layer: 0
   m_Name: Cube (0)
   m_TagString: Ground
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2246,7 +2246,7 @@ Transform:
   m_GameObject: {fileID: 1615501108}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.89, y: -9.72, z: 0}
+  m_LocalPosition: {x: -0.94, y: -9.72, z: 0}
   m_LocalScale: {x: 6, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2339,7 +2339,7 @@ GameObject:
   - component: {fileID: 1659648939}
   m_Layer: 0
   m_Name: Prism
-  m_TagString: Stationary
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2619,7 +2619,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1208396327}
-  m_VersionIndex: 5297
+  m_VersionIndex: 5300
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2632,13 +2632,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659648938}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -1.6300001, z: 0}
-  m_LocalScale: {x: 0.2760129, y: 0.5250225, z: 0.1}
+  m_LocalRotation: {x: 0.013587931, y: -0.0005441312, z: 0.7097093, w: 0.70436347}
+  m_LocalPosition: {x: -0.10757089, y: -4.32, z: -0.047164083}
+  m_LocalScale: {x: 0.6947068, y: 0.45910704, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2005547251}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.141, y: 1.061, z: 90.444}
 --- !u!1 &1705908971
 GameObject:
   m_ObjectHideFlags: 0
