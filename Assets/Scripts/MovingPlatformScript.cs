@@ -13,7 +13,7 @@ public class MovingPlatformScript : MonoBehaviour
     private Vector3 offset;
 
     private bool touched = false;
-
+    private bool special = false;
     Transform mirrorLevelTransform;
 
     // Start is called before the first frame update
@@ -21,11 +21,19 @@ public class MovingPlatformScript : MonoBehaviour
     {
         defaultPos = transform.position;
         target = null;
+        if (tag == "MovingSpecial") { 
+            special = true;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (!touched && GameManager.Instance.State == GameManager.GameState.MirrorLevel && special) {
+            float pingpong = Mathf.PingPong(Time.time * 5, 4);
+            transform.position = new Vector3(defaultPos.x, defaultPos.y + pingpong, defaultPos.z);
+        }
         if (!touched || GameManager.Instance.State == GameManager.GameState.InitialLevel) {
             float pingpong = Mathf.PingPong(Time.time * 5, 4);
             transform.position = new Vector3(defaultPos.x + pingpong, defaultPos.y, defaultPos.z);
