@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnCollisionStay(Collision collision) {
-        if (collision.collider.tag == "Moving" || collision.collider.tag == "Stationary" || collision.collider.tag == "Ground") {
+        if (collision.collider.tag == "Moving" || collision.collider.tag == "Stationary" || collision.collider.tag == "Ground" || collision.collider.tag == "MovingSpecial") {
             isGround = true;
             // Debug.Log("Grounded");
         } else {
