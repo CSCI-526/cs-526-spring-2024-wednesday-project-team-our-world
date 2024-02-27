@@ -24,7 +24,7 @@ public class PlatformManager : MonoBehaviour {
             if (child.CompareTag("Stationary")) {
                 child.gameObject.AddComponent<StationaryPlatformScript>();
                 Platforms.Add(child.gameObject);
-            } else if (child.CompareTag("Moving")) {
+            } else if (child.CompareTag("Moving") || child.CompareTag("MovingSpecial")) {
                 child.gameObject.AddComponent<MovingPlatformScript>();
                 Platforms.Add(child.gameObject);
             }
