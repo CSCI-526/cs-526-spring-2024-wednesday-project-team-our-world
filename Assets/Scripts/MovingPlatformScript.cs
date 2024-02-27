@@ -21,7 +21,8 @@ public class MovingPlatformScript : MonoBehaviour
     {
         defaultPos = transform.position;
         target = null;
-        if (tag == "MovingSpecial") { 
+        if (tag == "MovingSpecial") {
+            print("Special");
             special = true;
         }
     }
@@ -31,10 +32,10 @@ public class MovingPlatformScript : MonoBehaviour
     {
 
         if (!touched && GameManager.Instance.State == GameManager.GameState.MirrorLevel && special) {
+            // print($"{tag}: Special Mode");
             float pingpong = Mathf.PingPong(Time.time * 5, 4);
             transform.position = new Vector3(defaultPos.x, defaultPos.y + pingpong, defaultPos.z);
-        }
-        if (!touched || GameManager.Instance.State == GameManager.GameState.InitialLevel) {
+        } else if (!touched || GameManager.Instance.State == GameManager.GameState.InitialLevel) {
             float pingpong = Mathf.PingPong(Time.time * 5, 4);
             transform.position = new Vector3(defaultPos.x + pingpong, defaultPos.y, defaultPos.z);
         } else if (GameManager.Instance.State == GameManager.GameState.MirrorLevel && touched) {
