@@ -50,11 +50,12 @@ public class MovingPlatformScript : MonoBehaviour
         }
     }
 
-    void OnTriggerStay(Collider col) {
-        target = col.gameObject;
+    private void OnCollisionStay(Collision collision) {
+        target = collision.gameObject;
         offset = target.transform.position - transform.position;
     }
-    void OnTriggerExit(Collider col) {
+
+    void OnCollisionExit(Collision collision) {
         target = null;
     }
 

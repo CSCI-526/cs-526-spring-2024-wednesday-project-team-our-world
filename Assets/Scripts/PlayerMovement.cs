@@ -13,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float gravityMultiplier;
 
     [SerializeField] private float velocityThreshold;
-
-    private bool isGround = true;
     // private float currVelocity = 0f;
 
     float XIntent = 0;
@@ -35,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate() {
+        
         if (GameManager.Instance.State != GameManager.GameState.PauseGame) {
             if (GameManager.Instance.State == GameManager.GameState.MirrorLevel) {
                 XIntent *= -1;
@@ -58,31 +57,25 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 Jump();
+
+            if (XIntent == 0) { 
+                
+            }
         } else {
             rb.Sleep();
         }
-
+        print(IsGrounded());
     }
 
     void Jump() {
-        // print("Trying to jump");
-        if (!isGround) return;
-       //  print("Sucessfully jumped");
-        isGround = false;
-        //rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
+        if (!IsGrounded()) return;
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Acceleration);
 
     }
 
-    private void OnCollisionStay(Collision collision) {
-        if (collision.collider.tag == "Moving" || collision.collider.tag == "Stationary" || collision.collider.tag == "Ground" || collision.collider.tag == "MovingSpecial") {
-            isGround = true;
-            // Debug.Log("Grounded");
-        } else {
-            isGround = false;
-
-            // Debug.Log("Not Grounded!");
-        }
+    bool IsGrounded() {
+        return Physics.Raycast(transform.position, Vector3.down, 1);
+        // return GetComponent<Rigidbody>().velocity.y == 0;
     }
 
     public void Reset() {
