@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 143875474}
   - component: {fileID: 143875473}
   - component: {fileID: 143875472}
+  - component: {fileID: 143875475}
   m_Layer: 0
   m_Name: Platform Moving
   m_TagString: Moving
@@ -349,6 +350,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143875470}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &143875475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143875470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ee2dd4d4f05c246a756c97c90fa76b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  amplitude: 8
+  special: 0
+  startHorizontal: 1
 --- !u!1 &584280015
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,11 +814,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1146930700}
   resetHeight: -25
-  respawnPoint: {fileID: 787906794}
-  mirrorRespawnPoint180: {fileID: 0}
-  mirrorRespawnPoint90: {fileID: 0}
-  mirrorRespawnPoint270: {fileID: 0}
+  respawnPoint:
+  - {fileID: 787906794}
   mirrorWorldScript: {fileID: 0}
+  analytics: {fileID: 832818514}
+--- !u!114 &832818514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832818512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992f01726bde95843a88fee711574985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &924691152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,6 +2031,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 832818513}
+    - targetCorrespondingSourceObject: {fileID: 8568218558644676248, guid: 832e6a7eac567004189e31343f0167b1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 832818514}
   m_SourcePrefab: {fileID: 100100000, guid: 832e6a7eac567004189e31343f0167b1, type: 3}
 --- !u!1 &1584747370
 GameObject:
@@ -2393,7 +2425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1777580709
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2545,12 +2577,12 @@ PrefabInstance:
     - target: {fileID: 7141815886842916723, guid: e36d22f102ebaab46b99f4f6fe4dc254,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.1
+      value: -14.8
       objectReference: {fileID: 0}
     - target: {fileID: 7141815886842916723, guid: e36d22f102ebaab46b99f4f6fe4dc254,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.5
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 7141815886842916723, guid: e36d22f102ebaab46b99f4f6fe4dc254,
         type: 3}

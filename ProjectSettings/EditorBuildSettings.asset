@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Movement Tutorial.unity
     guid: 164e871c147ba074589d753b951e9c20
+  - enabled: 1
+    path: Assets/Scenes/Mirror Tutorial.unity
+    guid: 351cb65f2768d214985335112b4ebe16
   m_configObjects: {}

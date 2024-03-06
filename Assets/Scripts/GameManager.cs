@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     public int CurrentRotation { get; set; }
 
+    public string CurrentPlatform { get; set; }
+
     private void Awake() {
         if (Instance != null && Instance != this) {
             Destroy(gameObject);

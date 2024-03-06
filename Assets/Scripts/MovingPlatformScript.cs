@@ -62,6 +62,7 @@ public class MovingPlatformScript : MonoBehaviour
         if (GameManager.Instance.State != GameManager.GameState.MirrorLevel){
             touched = true;
             mirrorLevelTransform = transform;
+            GameManager.Instance.CurrentPlatform = name;
         }
     }
 

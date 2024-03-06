@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerReset : MonoBehaviour
@@ -11,6 +12,8 @@ public class PlayerReset : MonoBehaviour
     [SerializeField] private Transform[] respawnPoint;
     [SerializeField] private MirrorWorldScript mirrorWorldScript;
 
+    public Analytics analytics;
+
     private void Update() {
         if (player.transform.position.y < resetHeight) {
             if (GameManager.Instance.CurrentRotation == 0) {
@@ -21,6 +24,9 @@ public class PlayerReset : MonoBehaviour
             }
             
             player.GetComponent<PlayerMovement>().Reset();
+
+            analytics.Send($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}");
+
         }
             
     }
