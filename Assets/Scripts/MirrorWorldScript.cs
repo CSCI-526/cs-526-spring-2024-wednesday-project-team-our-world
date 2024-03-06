@@ -12,7 +12,7 @@ public class MirrorWorldScript : MonoBehaviour
     public int debugAngle = 0;
     public int rotatedBy = 0;
     void InitializeMirrorWorld() {
-        StartCoroutine(CreateMirror(debugAngle));
+        EnterMirror(debugAngle);
     }
 
     private void OnCollisionEnter(Collision collision) {

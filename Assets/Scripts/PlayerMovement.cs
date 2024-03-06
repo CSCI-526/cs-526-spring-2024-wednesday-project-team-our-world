@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float velocityThreshold;
     // private float currVelocity = 0f;
+    public float raycastLen;
 
     float XIntent = 0;
 
@@ -29,7 +30,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         XIntent = 0;
-        XIntent = Input.GetAxis("Horizontal");
+        XIntent = Input.GetAxisRaw("Horizontal");
+
+       
     }
 
     private void FixedUpdate() {
@@ -38,13 +41,12 @@ public class PlayerMovement : MonoBehaviour
             if (GameManager.Instance.State == GameManager.GameState.MirrorLevel) {
                 XIntent *= -1;
             }
-
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
+                Jump();
             rb.AddForce(Vector3.down * jumpForce * gravityMultiplier, ForceMode.Acceleration);
             // currVelocity = rb.velocity.x;
 
-            Vector3 targetVelocity = new Vector3(XIntent, 0, 0);
-
-            targetVelocity *= speed;
+            Vector3 targetVelocity = new Vector3(XIntent, 0, 0) * speed;
 
             Vector3 velocity = rb.velocity;
             Vector3 velocityChange = (targetVelocity - velocity);
@@ -54,9 +56,6 @@ public class PlayerMovement : MonoBehaviour
             velocityChange.y = 0;
 
             rb.AddForce(velocityChange, ForceMode.VelocityChange);
-
-            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
-                Jump();
 
             if (XIntent == 0) { 
                 
@@ -70,12 +69,20 @@ public class PlayerMovement : MonoBehaviour
     void Jump() {
         if (!IsGrounded()) return;
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Acceleration);
-
     }
 
     bool IsGrounded() {
-        return Physics.Raycast(transform.position, Vector3.down, 1);
-        // return GetComponent<Rigidbody>().velocity.y == 0;
+        // Perform the raycast
+        bool grounded = Physics.Raycast(transform.position, Vector3.down, raycastLen);
+        // print(grounded);
+/*
+        if (grounded) {
+            Debug.DrawRay(transform.position, Vector3.down * raycastLen, Color.green);
+        } else {
+            Debug.DrawRay(transform.position, Vector3.down * raycastLen, Color.red);
+        }*/
+
+        return grounded;
     }
 
     public void Reset() {

@@ -74,11 +74,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bbca30492659ee4f81185b8c134b93d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  maxVelocityChange: 10
-  jumpForce: 800
-  gravityMultiplier: 0.1
+  speed: 7
+  maxVelocityChange: 7
+  jumpForce: 700
+  gravityMultiplier: 0.03
   velocityThreshold: 15
+  raycastLen: 1
 --- !u!136 &5440465492403950348
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -99,7 +100,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7589470402375085341

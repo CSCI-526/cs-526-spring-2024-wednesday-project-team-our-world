@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AlphaLevel.unity
-    guid: 0082b530d3814d741a3fe21120cd86cc
+    path: Assets/Scenes/Movement Tutorial.unity
+    guid: 164e871c147ba074589d753b951e9c20
   m_configObjects: {}
