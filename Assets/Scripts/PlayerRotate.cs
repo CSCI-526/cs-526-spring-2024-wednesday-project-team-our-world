@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MirrorScript : MonoBehaviour
+public class PlayerRotate : MonoBehaviour
 {
-
     [SerializeField] private bool IsOnSide;
-    private GameObject levelParent = null;
+    private GameObject levelParent;
     public PlatformManager platformManager;
 
     // Start is called before the first frame update
@@ -18,19 +17,20 @@ public class MirrorScript : MonoBehaviour
         levelParent = transform.parent.gameObject;
     }
 
-    private void OnCollisionEnter(Collision collision) {
-
-        if (IsOnSide != GameManager.Instance.LevelIsFlipped) {
-            // print("Flipping");
-            
-            GameManager.Instance.State = GameManager.GameState.PauseGame;
-            
-            if (!IsOnSide)
-                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
-            else
-                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
-        }
-
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        // if (Input.GetKey(KeyCode.E))
+        //     print("Flipping");
+        //     if (IsOnSide != GameManager.Instance.LevelIsFlipped) {
+                
+        //         GameManager.Instance.State = GameManager.GameState.PauseGame;
+                
+        //         if (!IsOnSide)
+        //             StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
+        //         else
+        //             StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
+        // }
     }
 
     IEnumerator CreateMirror(int goalAngle, int flip) {
@@ -54,5 +54,4 @@ public class MirrorScript : MonoBehaviour
         platformManager.FlipPlatforms();
         GameManager.Instance.State = GameManager.GameState.InitialLevel;
     }
-
 }
