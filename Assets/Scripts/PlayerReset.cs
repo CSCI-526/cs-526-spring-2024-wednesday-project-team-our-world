@@ -26,6 +26,7 @@ public class PlayerReset : MonoBehaviour
             player.GetComponent<PlayerMovement>().Reset();
 
             analytics.Send($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}");
+            GameManager.Instance.CurrentPlatform = "Ground";
 
         }
             

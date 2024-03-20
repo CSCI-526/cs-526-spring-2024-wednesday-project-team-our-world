@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public string CurrentPlatform { get; set; }
 
     private void Awake() {
+        Instance.CurrentPlatform = "Ground";
         if (Instance != null && Instance != this) {
             Destroy(gameObject);
         } else {
