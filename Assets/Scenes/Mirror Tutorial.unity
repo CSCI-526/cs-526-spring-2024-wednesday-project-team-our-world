@@ -3268,6 +3268,16 @@ PrefabInstance:
       propertyPath: raycastLen
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2783814640097494010, guid: e36d22f102ebaab46b99f4f6fe4dc254,
+        type: 3}
+      propertyPath: levelParent
+      value: 
+      objectReference: {fileID: 2005547250}
+    - target: {fileID: 2783814640097494010, guid: e36d22f102ebaab46b99f4f6fe4dc254,
+        type: 3}
+      propertyPath: platformManager
+      value: 
+      objectReference: {fileID: 832818514}
     - target: {fileID: 7141815886842916723, guid: e36d22f102ebaab46b99f4f6fe4dc254,
         type: 3}
       propertyPath: m_LocalPosition.x
