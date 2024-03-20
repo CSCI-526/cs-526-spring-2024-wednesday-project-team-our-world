@@ -76,10 +76,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   maxVelocityChange: 7
-  jumpForce: 700
-  gravityMultiplier: 0.03
+  jumpForce: 900
+  gravityMultiplier: 0.05
   velocityThreshold: 15
-  raycastLen: 1
+  raycastLen: 1.1
 --- !u!136 &5440465492403950348
 CapsuleCollider:
   m_ObjectHideFlags: 0
