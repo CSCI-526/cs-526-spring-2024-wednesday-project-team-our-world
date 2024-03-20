@@ -18,12 +18,13 @@ public class GameManager : MonoBehaviour
     public string CurrentPlatform { get; set; }
 
     private void Awake() {
-        Instance.CurrentPlatform = "Ground";
+        
         if (Instance != null && Instance != this) {
             Destroy(gameObject);
         } else {
             Instance = this;
         }
+        Instance.CurrentPlatform = "Ground";
     }
     private void OnDestroy() {
         // Reset the instance if the object is destroyed
