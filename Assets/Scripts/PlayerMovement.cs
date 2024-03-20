@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     float XIntent = 0;
     public GameObject levelParent;
-    private int CurrentYRotation = 0;
+    private int CurrentZRotation = 0;
     // Start is called before the first frame update
     void Awake()
     {
@@ -33,12 +33,12 @@ public class PlayerMovement : MonoBehaviour
         XIntent = 0;
         XIntent = Input.GetAxisRaw("Horizontal");
        if (Input.GetKeyDown(KeyCode.E)) {
-                Rotate(CurrentYRotation - 90, 0);
-                print(CurrentYRotation);
-            }
+            Rotate(CurrentZRotation - 90, 0);
+            // print(CurrentYRotation);
+        }
         if (Input.GetKeyDown(KeyCode.Q)) {
-            Rotate(CurrentYRotation + 90, 0);
-            print(CurrentYRotation);
+            Rotate(CurrentZRotation + 90, 0);
+            // print(CurrentYRotation);
         }
     }
 
@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float yRotation = flip;
         float zRotation = goalAngle;
-        CurrentYRotation = goalAngle;
+        CurrentZRotation = goalAngle;
         Quaternion targetRotation = Quaternion.Euler(0f, yRotation, zRotation);
 
         while (Quaternion.Angle(levelParent.transform.rotation, targetRotation) > 0.01f) 
