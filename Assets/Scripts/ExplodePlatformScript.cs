@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExplodePlatformScript : MonoBehaviour
 {   
+    private float timeToExplode = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,20 +20,19 @@ public class ExplodePlatformScript : MonoBehaviour
     void OnCollisionEnter(Collision collision)
 {
     StartCoroutine(ChangeColorAfterCollision());
-    StartCoroutine(DisableAfterSeconds(1.5f));
+    StartCoroutine(DisableAfterSeconds(timeToExplode));
 }
 
 IEnumerator ChangeColorAfterCollision()
 {
     Renderer renderer = GetComponent<Renderer>();
     Color originalColor = renderer.material.color;
-    float duration = 1.5f; // duration of the color change
     float elapsed = 0f;
 
-    while (elapsed < duration)
+    while (elapsed < timeToExplode)
     {
         elapsed += Time.deltaTime;
-        float normalizedTime = elapsed / duration;
+        float normalizedTime = elapsed / timeToExplode;
         // Here Color.Lerp is used to interpolate the color
         renderer.material.color = Color.Lerp(originalColor, Color.black, normalizedTime);
         yield return null;
