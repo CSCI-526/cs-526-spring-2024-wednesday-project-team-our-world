@@ -26,9 +26,9 @@ public class MirrorScript : MonoBehaviour
             GameManager.Instance.State = GameManager.GameState.PauseGame;
             
             if (!IsOnSide)
-                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation + 90, 0));
+                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
             else
-                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation + 90, 0));
+                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
         }
 
     }

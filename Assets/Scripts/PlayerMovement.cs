@@ -17,7 +17,8 @@ public class PlayerMovement : MonoBehaviour
     public float raycastLen;
 
     float XIntent = 0;
-
+    public GameObject levelParent;
+    private int CurrentZRotation = 0;
     // Start is called before the first frame update
     void Awake()
     {
@@ -31,8 +32,14 @@ public class PlayerMovement : MonoBehaviour
     {
         XIntent = 0;
         XIntent = Input.GetAxisRaw("Horizontal");
-
-       
+       if (Input.GetKeyDown(KeyCode.E)) {
+            Rotate(CurrentZRotation - 90, 0);
+            // print(CurrentYRotation);
+        }
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            Rotate(CurrentZRotation + 90, 0);
+            // print(CurrentYRotation);
+        }
     }
 
     private void FixedUpdate() {
@@ -43,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 Jump();
+            
             rb.AddForce(Vector3.down * jumpForce * gravityMultiplier, ForceMode.Acceleration);
             // currVelocity = rb.velocity.x;
 
@@ -63,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
         } else {
             rb.Sleep();
         }
-        print(IsGrounded());
+        // print(IsGrounsded());
     }
 
     void Jump() {
@@ -71,6 +79,22 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Acceleration);
     }
 
+    void Rotate(int goalAngle, int flip) 
+    {
+        float yRotation = flip;
+        float zRotation = goalAngle;
+        CurrentZRotation = goalAngle;
+        Quaternion targetRotation = Quaternion.Euler(0f, yRotation, zRotation);
+
+        while (Quaternion.Angle(levelParent.transform.rotation, targetRotation) > 0.01f) 
+        {
+            levelParent.transform.rotation = Quaternion.RotateTowards(
+                levelParent.transform.rotation,
+                targetRotation,
+                100f * Time.deltaTime
+            );
+        }
+    }
     bool IsGrounded() {
         // Perform the raycast
         bool grounded = Physics.Raycast(transform.position, Vector3.down, raycastLen);

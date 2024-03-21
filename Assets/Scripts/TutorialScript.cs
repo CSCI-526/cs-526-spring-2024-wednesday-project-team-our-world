@@ -13,10 +13,11 @@ public class TutorialScript : MonoBehaviour
 
         GameManager.Instance.State = GameManager.GameState.PauseGame;
         UI.SetActive(true);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Proceed() {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level 2");
     }
 
 }
