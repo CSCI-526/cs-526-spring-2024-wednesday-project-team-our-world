@@ -3858,7 +3858,7 @@ GameObject:
   - component: {fileID: 1391647307}
   - component: {fileID: 1391647306}
   - component: {fileID: 1391647305}
-  - component: {fileID: 1391647304}
+  - component: {fileID: 1391647308}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -3882,22 +3882,6 @@ Transform:
   - {fileID: 2084566335}
   m_Father: {fileID: 776482380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1391647304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391647302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a77e05b3ba80094eb15d3d1a8043872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelParent: {fileID: 63764316}
-  UI: {fileID: 1777580708}
-  debugAngle: 90
-  rotatedBy: 0
 --- !u!65 &1391647305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3969,6 +3953,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391647302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1391647308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391647302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4228598796659b94a8c6f26defee0de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 1777580708}
 --- !u!1 &1391819510
 GameObject:
   m_ObjectHideFlags: 0
