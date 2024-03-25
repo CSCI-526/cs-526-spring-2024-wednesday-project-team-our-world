@@ -22,19 +22,11 @@ public class PlatformManager : MonoBehaviour {
         foreach (Transform child in parent.transform) {
             // Check the tag of each child
             if (child.CompareTag("Stationary")) {
-                // child.gameObject.AddComponent<StationaryPlatformScript>();
+                child.gameObject.AddComponent<StationaryPlatformScript>();
                 Platforms.Add(child.gameObject);
             } else if (child.CompareTag("Moving") || child.CompareTag("MovingSpecial")) {
-                // child.gameObject.AddComponent<MovingPlatformScript>();
+                child.gameObject.AddComponent<MovingPlatformScript>();
                 Platforms.Add(child.gameObject);
-            }
-        }
-    }
-
-    public void FlipPlatforms() { 
-        foreach (GameObject child in Platforms) {
-            if (child.tag == "Moving") { 
-                child.GetComponent<MovingPlatformScript>().startHorizontal = !child.GetComponent<MovingPlatformScript>().startHorizontal;
             }
         }
     }

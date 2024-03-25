@@ -11,20 +11,12 @@ public class GameManager : MonoBehaviour
 
     public GameState State { get; set; }
 
-    public bool LevelIsFlipped { get; set; }
-
-    public int CurrentRotation { get; set; }
-
-    public string CurrentPlatform { get; set; }
-
     private void Awake() {
-        
         if (Instance != null && Instance != this) {
             Destroy(gameObject);
         } else {
             Instance = this;
         }
-        Instance.CurrentPlatform = "Ground";
     }
     private void OnDestroy() {
         // Reset the instance if the object is destroyed
