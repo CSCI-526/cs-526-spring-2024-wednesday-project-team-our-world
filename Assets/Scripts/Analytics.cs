@@ -8,19 +8,33 @@ public class Analytics : MonoBehaviour
 {
     string URL = "https://docs.google.com/forms/d/e/1FAIpQLSfYqvkOq-JMVyZKIsPyyGUV7eEUoOIuyndzBir0wxA1opyAQw/formResponse";
     // https://docs.google.com/forms/u/2/d/e/1FAIpQLSfYqvkOq-JMVyZKIsPyyGUV7eEUoOIuyndzBir0wxA1opyAQw/formResponse?usp=pp_url&entry.760059763=DebugTest
+    string[] information = new string[4];
+    
     [Button]
     void DebugPost() {
-        StartCoroutine(Post("DebugTest"));
+        information[0] = "Debug";
+        StartCoroutine(Post());
     }
 
-    public void Send(string s) {
-        StartCoroutine(Post($"{s}"));
+    public void AddAnalyticData(string info, int slot) {
+        if (slot > 0 && slot < information.Length) {
+            information[slot] = info;
+        }
     }
 
-    IEnumerator Post(string Analytic) {
+    public void Send() {
+        StartCoroutine(Post());
+    }
+
+    IEnumerator Post() {
 
         WWWForm form = new WWWForm();
-        form.AddField("entry.760059763", Analytic);
+        form.AddField("entry.760059763", information[0]);
+        
+        // Add as needed
+        //form.AddField("entry.", information[1]);
+        //form.AddField("entry.", information[2]);
+        //form.AddField("entry.", information[3]);
 
         UnityWebRequest www = UnityWebRequest.Post(URL, form);
 
