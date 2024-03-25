@@ -4,40 +4,34 @@ using UnityEngine;
 
 public class MirrorScript : MonoBehaviour
 {
-
-    [SerializeField] private bool IsOnSide;
-    private GameObject levelParent = null;
-    public PlatformManager platformManager;
+    int CurrentZRotation = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (!IsOnSide) { 
-            transform.Rotate(0, 180, 0, Space.Self);
-        }
-        levelParent = transform.parent.gameObject;
-    }
-
-    private void OnCollisionEnter(Collision collision) {
-
-        if (IsOnSide != GameManager.Instance.LevelIsFlipped) {
-            // print("Flipping");
-            
-            GameManager.Instance.State = GameManager.GameState.PauseGame;
-            
-            if (!IsOnSide)
-                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
-            else
-                StartCoroutine(CreateMirror(GameManager.Instance.CurrentRotation - 90, 0));
-        }
 
     }
 
-    IEnumerator CreateMirror(int goalAngle, int flip) {
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.E) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
+            Rotate(CurrentZRotation - 90, 0);
+            // print(CurrentYRotation);
+        }
+        if (Input.GetKeyDown(KeyCode.Q) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
+            Rotate(CurrentZRotation + 90, 0);
+            // print(CurrentYRotation);
+        }
+    }
 
-        float yRotation = flip;
+    void Rotate(int goalAngle, int flip) {
+
+        GameManager.Instance.State = GameManager.GameState.PauseGame;
+
+        StartCoroutine(CreateMirror(goalAngle, flip));
+
+/*        float yRotation = flip;
         float zRotation = goalAngle;
-
+        CurrentZRotation = goalAngle;
         Quaternion targetRotation = Quaternion.Euler(0f, yRotation, zRotation);
 
         while (Quaternion.Angle(levelParent.transform.rotation, targetRotation) > 0.01f) {
@@ -46,12 +40,32 @@ public class MirrorScript : MonoBehaviour
                 targetRotation,
                 100f * Time.deltaTime
             );
+        }*/
+    }
+
+    private void OnCollisionEnter(Collision collision) {
+
+    }
+
+    IEnumerator CreateMirror(int goalAngle, int flip) {
+
+        float yRotation = flip;
+        float zRotation = goalAngle;
+        CurrentZRotation = goalAngle;
+
+        Quaternion targetRotation = Quaternion.Euler(0f, yRotation, zRotation);
+
+        while (Quaternion.Angle(transform.rotation, targetRotation) > 0.01f) {
+            transform.rotation = Quaternion.RotateTowards(
+                transform.rotation,
+                targetRotation,
+                100f * Time.deltaTime
+            );
             yield return null;
         }
 
         GameManager.Instance.CurrentRotation += 90;
         if(flip == 180) GameManager.Instance.LevelIsFlipped = true;
-        platformManager.FlipPlatforms();
         GameManager.Instance.State = GameManager.GameState.InitialLevel;
     }
 
