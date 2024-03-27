@@ -16,9 +16,8 @@ public class PlayerReset : MonoBehaviour
 
     private void Update() {
         if (player.transform.position.y < resetHeight) {
-             // Reload the current scene
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            // player.transform.position = respawnPoint[0].position;
+            
+            
             // if (GameManager.Instance.CurrentRotation == 0) {
             //     player.transform.position = respawnPoint[0].position;
             // } else if (GameManager.Instance.CurrentRotation == 90) {
@@ -26,7 +25,15 @@ public class PlayerReset : MonoBehaviour
             //     player.transform.position = respawnPoint[1].position;
             // }
             
-            // player.GetComponent<PlayerMovement>().Reset();
+            if (GameManager.Instance.State == GameManager.GameState.MirrorLevel) {
+                player.transform.position = respawnPoint[0].position;
+                player.GetComponent<PlayerMovement>().Reset();
+            }
+            else {
+                // Reload the current scene
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            
 
             // analytics.Send($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}");
 
