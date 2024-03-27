@@ -11,10 +11,6 @@ public class GameManager : MonoBehaviour
 
     public GameState State { get; set; }
 
-    public bool LevelIsFlipped { get; set; }
-
-    public int CurrentRotation { get; set; }
-
     public string CurrentPlatform { get; set; }
 
     private void Awake() {

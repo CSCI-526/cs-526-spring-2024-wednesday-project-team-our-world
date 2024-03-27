@@ -14,46 +14,27 @@ public class MirrorScript : MonoBehaviour
 
     private void Update() {
         if (Input.GetKeyDown(KeyCode.E) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
-            Rotate(CurrentZRotation - 90, 0);
-            // print(CurrentYRotation);
+            Rotate(CurrentZRotation - 90);
         }
         if (Input.GetKeyDown(KeyCode.Q) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
-            Rotate(CurrentZRotation + 90, 0);
-            // print(CurrentYRotation);
+            Rotate(CurrentZRotation + 90);
         }
     }
 
-    void Rotate(int goalAngle, int flip) {
-
+    void Rotate(int goalAngle) {
         GameManager.Instance.State = GameManager.GameState.PauseGame;
-
-        StartCoroutine(CreateMirror(goalAngle, flip));
-
-/*        float yRotation = flip;
-        float zRotation = goalAngle;
-        CurrentZRotation = goalAngle;
-        Quaternion targetRotation = Quaternion.Euler(0f, yRotation, zRotation);
-
-        while (Quaternion.Angle(levelParent.transform.rotation, targetRotation) > 0.01f) {
-            levelParent.transform.rotation = Quaternion.RotateTowards(
-                levelParent.transform.rotation,
-                targetRotation,
-                100f * Time.deltaTime
-            );
-        }*/
+        StartCoroutine(CreateMirror(goalAngle));
     }
 
     private void OnCollisionEnter(Collision collision) {
 
     }
 
-    IEnumerator CreateMirror(int goalAngle, int flip) {
+    IEnumerator CreateMirror(int goalAngle) {
 
-        float yRotation = flip;
         float zRotation = goalAngle;
-        CurrentZRotation = goalAngle;
 
-        Quaternion targetRotation = Quaternion.Euler(0f, yRotation, zRotation);
+        Quaternion targetRotation = Quaternion.Euler(0f, 0, zRotation);
 
         while (Quaternion.Angle(transform.rotation, targetRotation) > 0.01f) {
             transform.rotation = Quaternion.RotateTowards(
@@ -64,8 +45,8 @@ public class MirrorScript : MonoBehaviour
             yield return null;
         }
 
-        GameManager.Instance.CurrentRotation += 90;
-        if(flip == 180) GameManager.Instance.LevelIsFlipped = true;
+        CurrentZRotation = goalAngle;
+
         GameManager.Instance.State = GameManager.GameState.InitialLevel;
     }
 

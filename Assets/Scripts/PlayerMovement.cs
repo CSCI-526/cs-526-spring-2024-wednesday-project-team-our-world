@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded;
 
+    private bool lockout = false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -36,15 +38,25 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate() {
 
         if (GameManager.Instance.State != GameManager.GameState.PauseGame) {
-            Vector3 movement = new Vector3(XIntent, 0f, 0f) * moveSpeed * Time.deltaTime;
-            transform.Translate(movement);
 
+            if (lockout) { 
+                lockout = false;
+                rb.WakeUp();
+            }
+
+            Move();
             // Jumping
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
                 Jump();
         } else {
+            lockout = true;
             rb.Sleep();
         }
+    }
+
+    void Move() {
+        Vector3 movement = new Vector3(XIntent, 0f, 0f) * moveSpeed * Time.deltaTime;
+        transform.Translate(movement);
     }
 
     void Jump() {
