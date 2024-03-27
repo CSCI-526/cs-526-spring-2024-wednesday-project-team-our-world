@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     public string CurrentPlatform { get; set; }
 
+    public bool checkpoint = false;
     private void Awake() {
         
         if (Instance != null && Instance != this) {

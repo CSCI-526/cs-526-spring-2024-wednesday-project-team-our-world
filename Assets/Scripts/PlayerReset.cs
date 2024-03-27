@@ -25,7 +25,7 @@ public class PlayerReset : MonoBehaviour
             //     player.transform.position = respawnPoint[1].position;
             // }
             
-            if (GameManager.Instance.State == GameManager.GameState.MirrorLevel) {
+            if (GameManager.Instance.checkpoint == true) {
                 player.transform.position = respawnPoint[0].position;
                 player.GetComponent<PlayerMovement>().Reset();
             }

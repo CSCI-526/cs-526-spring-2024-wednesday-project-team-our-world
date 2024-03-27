@@ -20,8 +20,9 @@ public class CheckpointScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision) {
         gameObject.SetActive(false);
-        checkpointText.gameObject.SetActive(false);
+        if (checkpointText != null)
+            checkpointText.gameObject.SetActive(false);
         // TODO: rename GameManager.GameState.MirrorLevel, MirrorLevel works as a checkpoint
-        GameManager.Instance.State = GameManager.GameState.MirrorLevel; 
+        GameManager.Instance.checkpoint = true; 
     }
 }
