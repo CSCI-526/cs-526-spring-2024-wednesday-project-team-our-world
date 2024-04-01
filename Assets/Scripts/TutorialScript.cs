@@ -11,9 +11,10 @@ public class TutorialScript : MonoBehaviour
     private void OnCollisionEnter(Collision collision) {
         print("Entering Mirror World");
 
-        GameManager.Instance.State = GameManager.GameState.PauseGame;
+        //GameManager.Instance.State = GameManager.GameState.PauseGame;
         UI.SetActive(true);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 0;
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Proceed() {
