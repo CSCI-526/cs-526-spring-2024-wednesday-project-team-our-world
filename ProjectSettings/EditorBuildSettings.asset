@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Heena UPDATES/Level Selection.unity
     guid: 8cbc309b966efed42a8dad587303da21
   - enabled: 1
-    path: Assets/Heena UPDATES/Version2/Level 1 v2.unity
-    guid: 2b4ad694e2f25d945ad432518386c0f7
-  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: c6309afc6b856984697917b95d942f03
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 164e871c147ba074589d753b951e9c20
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Hard.unity
+    guid: 2425a36e10568074fa5289eacc4531f5
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 351cb65f2768d214985335112b4ebe16
