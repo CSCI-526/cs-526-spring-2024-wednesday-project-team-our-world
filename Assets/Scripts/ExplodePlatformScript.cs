@@ -18,10 +18,11 @@ public class ExplodePlatformScript : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collision)
-{
-    StartCoroutine(ChangeColorAfterCollision());
-    StartCoroutine(DisableAfterSeconds(timeToExplode));
-}
+    {
+        GameManager.Instance.CurrentPlatform = name;
+        StartCoroutine(ChangeColorAfterCollision());
+        StartCoroutine(DisableAfterSeconds(timeToExplode));
+    }
 
 IEnumerator ChangeColorAfterCollision()
 {

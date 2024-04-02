@@ -16,12 +16,14 @@ public class Analytics : MonoBehaviour
         StartCoroutine(Post());
     }
 
+    // attach data to correct slot in the metric
     public void AddAnalyticData(string info, int slot) {
         if (slot > 0 && slot < information.Length) {
             information[slot] = info;
         }
     }
 
+    // Call when ready to upload, usually at the end of each level
     public void Send() {
         StartCoroutine(Post());
     }
@@ -29,12 +31,10 @@ public class Analytics : MonoBehaviour
     IEnumerator Post() {
 
         WWWForm form = new WWWForm();
-        form.AddField("entry.760059763", information[0]);
-        
-        // Add as needed
-        //form.AddField("entry.", information[1]);
-        //form.AddField("entry.", information[2]);
-        //form.AddField("entry.", information[3]);
+        form.AddField("entry.760059763", information[0]); // Metric 1
+        form.AddField("entry.1419611943", information[1]); // Metric 2
+        form.AddField("entry.1658920105", information[2]); // Metric 3
+        form.AddField("entry.638885815", information[3]); // Metric 4
 
         UnityWebRequest www = UnityWebRequest.Post(URL, form);
 
