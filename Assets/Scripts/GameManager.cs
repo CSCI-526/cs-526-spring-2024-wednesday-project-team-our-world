@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public string CurrentPlatform { get; set; }
 
     public bool checkpoint = false;
+    public int checkpointZRotation = 0;
+    public int currentZRotation = 0;
     private void Awake() {
         
         if (Instance != null && Instance != this) {

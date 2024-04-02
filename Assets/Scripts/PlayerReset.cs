@@ -11,7 +11,7 @@ public class PlayerReset : MonoBehaviour
     
     [SerializeField] private Transform[] respawnPoint;
     [SerializeField] private MirrorWorldScript mirrorWorldScript;
-
+    [SerializeField] private MirrorScript mirrorScript;
     public Analytics analytics;
 
     private void Update() {
@@ -26,12 +26,14 @@ public class PlayerReset : MonoBehaviour
             // }
             
             if (GameManager.Instance.checkpoint == true) {
-                player.transform.position = respawnPoint[0].position;
-                player.GetComponent<PlayerMovement>().Reset();
+                // Start the RespawnPlayer coroutine
+                StartCoroutine(RespawnPlayer());
+                
             }
             else {
                 // Reload the current scene
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
             }
             
 
@@ -39,6 +41,21 @@ public class PlayerReset : MonoBehaviour
 
         }
             
+    }
+
+    IEnumerator RespawnPlayer()
+    {
+        // Call the Rotate function
+        mirrorScript.Rotate(GameManager.Instance.checkpointZRotation);
+
+        // Wait until the game state is not PauseGame
+        yield return new WaitUntil(() => GameManager.Instance.State != GameManager.GameState.PauseGame);
+
+        // Then set the player's position
+        player.transform.position = respawnPoint[0].position;
+
+        // Reset the player's movement
+        player.GetComponent<PlayerMovement>().Reset();
     }
 
 }
