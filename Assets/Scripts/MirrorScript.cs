@@ -21,7 +21,7 @@ public class MirrorScript : MonoBehaviour
         }
     }
 
-    void Rotate(int goalAngle) {
+    public void Rotate(int goalAngle) {
         GameManager.Instance.State = GameManager.GameState.PauseGame;
         StartCoroutine(CreateMirror(goalAngle));
     }
@@ -46,7 +46,7 @@ public class MirrorScript : MonoBehaviour
         }
 
         CurrentZRotation = goalAngle;
-
+        GameManager.Instance.currentZRotation = CurrentZRotation;
         GameManager.Instance.State = GameManager.GameState.InitialLevel;
     }
 
