@@ -35,6 +35,9 @@ public class PlayerReset : MonoBehaviour
             }
 
             analytics.AddAnalyticData($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}", 1);
+            analytics.AddAnalyticData($"-1", 0);
+            analytics.AddAnalyticData($"-1", 2);
+            analytics.AddAnalyticData($"-1", 3);
             analytics.Send();
 
         }

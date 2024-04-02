@@ -18,8 +18,9 @@ public class Analytics : MonoBehaviour
 
     // attach data to correct slot in the metric
     public void AddAnalyticData(string info, int slot) {
-        if (slot > 0 && slot < information.Length) {
+        if (slot > -1 && slot < information.Length) {
             information[slot] = info;
+            Debug.Log($"Added {information[slot]} to slot {slot}");
         }
     }
 
