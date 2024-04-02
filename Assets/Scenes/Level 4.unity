@@ -1458,6 +1458,7 @@ MonoBehaviour:
   respawnPoint:
   - {fileID: 390114763}
   mirrorWorldScript: {fileID: 0}
+  mirrorScript: {fileID: 63764318}
   analytics: {fileID: 832818514}
 --- !u!114 &832818514
 MonoBehaviour:
