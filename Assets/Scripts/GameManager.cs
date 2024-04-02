@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public bool checkpoint = false;
     public int checkpointZRotation = 0;
     public int currentZRotation = 0;
+
+    public List<GameObject> deactivatedPlatforms = new List<GameObject>();
+
     private void Awake() {
         
         if (Instance != null && Instance != this) {
