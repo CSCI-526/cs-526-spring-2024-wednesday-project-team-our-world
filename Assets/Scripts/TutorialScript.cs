@@ -41,10 +41,8 @@ public class TutorialScript : MonoBehaviour
             analytics.AddAnalyticData(metric2Data, 1);
             analytics.AddAnalyticData(metric3Data, 2);
             analytics.AddAnalyticData(metric4Data, 3);
-            if (!lockout) {
-                lockout = true;
-                analytics.Send();
-            }
+            analytics.Send();
+           
 
         }
 
