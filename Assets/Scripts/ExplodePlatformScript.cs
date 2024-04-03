@@ -6,42 +6,40 @@ public class ExplodePlatformScript : MonoBehaviour
 {   
     private float timeToExplode = 1.0f;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Renderer r;
+    Collider c;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void Start() {
+        r = GetComponent<Renderer>();
+        c = GetComponent<Collider>();
     }
 
     void OnCollisionEnter(Collision collision)
     {
         GameManager.Instance.CurrentPlatform = name;
         StartCoroutine(ChangeColorAfterCollision());
-        StartCoroutine(DisableAfterSeconds(timeToExplode));
     }
 
-IEnumerator ChangeColorAfterCollision()
-{
-    Renderer renderer = GetComponent<Renderer>();
-    Color originalColor = renderer.material.color;
-    float elapsed = 0f;
-
-    while (elapsed < timeToExplode)
+    IEnumerator ChangeColorAfterCollision()
     {
-        elapsed += Time.deltaTime;
-        float normalizedTime = elapsed / timeToExplode;
-        // Here Color.Lerp is used to interpolate the color
-        renderer.material.color = Color.Lerp(originalColor, Color.black, normalizedTime);
-        yield return null;
+        Color originalColor = GetComponent<Renderer>().material.color;
+        float elapsed = 0f;
+
+        while (elapsed < timeToExplode)
+        {
+            elapsed += Time.deltaTime;
+            float normalizedTime = elapsed / timeToExplode;
+            // Here Color.Lerp is used to interpolate the color
+            GetComponent<Renderer>().material.color = Color.Lerp(originalColor, Color.clear, normalizedTime);
+            yield return null;
+        }
+        // yield return new WaitForSeconds(0);
+        c.isTrigger = true;
     }
-}
-IEnumerator DisableAfterSeconds(float seconds)
-{
-    yield return new WaitForSeconds(seconds);
-    gameObject.SetActive(false);
-}
+
+    public void Reset() {
+        r.material.color = Color.red;
+        c.isTrigger = false;
+    }
+
 }

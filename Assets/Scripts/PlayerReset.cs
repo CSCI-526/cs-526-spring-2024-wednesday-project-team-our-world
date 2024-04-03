@@ -13,14 +13,14 @@ public class PlayerReset : MonoBehaviour
     [SerializeField] private MirrorScript mirrorScript;
     public Analytics analytics;
 
+    bool locked = false;
+
     private void Update() {
         if (player.transform.position.y < resetHeight) {
-            if (GameManager.Instance.checkpoint == true) {
-                // Start the RespawnPlayer coroutine
+            if (GameManager.Instance.checkpointUsed == true) {
                 StartCoroutine(RespawnPlayer());
             }
             else {
-                // Reload the current scene
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
 
@@ -28,17 +28,15 @@ public class PlayerReset : MonoBehaviour
             //metric 2
             string metric2Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}";
             //metric 4
-            string metric4Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.checkpoint}";
+            string metric4Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.checkpointUsed}";
             //metric 1
             string metric1Data = $"{SceneManager.GetActiveScene().name}:\n";
-            foreach (KeyValuePair<string, float> pair in GameManager.Instance.platformTimes)
-            {
+            foreach (KeyValuePair<string, float> pair in GameManager.Instance.platformTimes) {
                 metric1Data += $"{pair.Key}: {pair.Value}\n";
             }
             //metric 3
             string metric3Data = $"{SceneManager.GetActiveScene().name}:\n";
-            foreach (KeyValuePair<string, int> pair in GameManager.Instance.platformRotateTimes)
-            {
+            foreach (KeyValuePair<string, int> pair in GameManager.Instance.platformRotateTimes) {
                 metric3Data += $"{pair.Key}: {pair.Value}\n";
             }
 
@@ -47,7 +45,6 @@ public class PlayerReset : MonoBehaviour
             analytics.AddAnalyticData(metric3Data, 2);
             analytics.AddAnalyticData(metric4Data, 3);
             analytics.Send();
-
         }
             
     }
@@ -61,18 +58,13 @@ public class PlayerReset : MonoBehaviour
         yield return new WaitUntil(() => GameManager.Instance.State != GameManager.GameState.PauseGame);
 
         GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
-
         
         // Loop through all ground GameObjects
         foreach (GameObject obj in allObjects)
         {
-            //Debug.Log(obj.name + " " + GameManager.Instance.deactivatedPlatforms.Contains(obj.name));
-            // If the GameObject is not in the list
             if (obj.tag == "Ground" && !obj.activeInHierarchy && !GameManager.Instance.deactivatedPlatforms.Contains(obj))
             {
-                // Activate the GameObject
-                obj.SetActive(true);
-                setRedColor(obj);
+                obj.GetComponent<ExplodePlatformScript>().Reset();
             }
         }
 
@@ -81,10 +73,8 @@ public class PlayerReset : MonoBehaviour
 
         // Reset the player's movement
         player.GetComponent<PlayerMovement>().Reset();
+
+        
     }
 
-    void setRedColor (GameObject obj) {
-        Renderer renderer = obj.GetComponent<Renderer>();
-        renderer.material.color = Color.red;
-    }
 }

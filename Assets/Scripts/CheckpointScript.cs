@@ -19,13 +19,13 @@ public class CheckpointScript : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision) {
-        gameObject.SetActive(false);
         if (checkpointText != null)
             checkpointText.gameObject.SetActive(false);
     
-        GameManager.Instance.checkpoint = true; 
+        GameManager.Instance.checkpointUsed = true; 
         GameManager.Instance.checkpointZRotation = GameManager.Instance.currentZRotation;
         StoreDeactivatedGroundObjects();
+        gameObject.SetActive(false);
     }
 
     void StoreDeactivatedGroundObjects()

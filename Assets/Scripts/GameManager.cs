@@ -13,9 +13,9 @@ public class GameManager : MonoBehaviour
 
     public string CurrentPlatform { get; set; }
 
-    public bool checkpoint = false;
-    public int checkpointZRotation = 0;
-    public int currentZRotation = 0;
+    public bool checkpointUsed { get; set; }
+    public int checkpointZRotation { get; set; }
+    public int currentZRotation { get; set; }
 
     public List<GameObject> deactivatedPlatforms = new List<GameObject>();
 
@@ -32,6 +32,9 @@ public class GameManager : MonoBehaviour
             Instance = this;
         }
         Instance.CurrentPlatform = "1";
+        checkpointUsed = false;
+        checkpointZRotation = 0;
+        currentZRotation = 0;
     }
     private void OnDestroy() {
         // Reset the instance if the object is destroyed

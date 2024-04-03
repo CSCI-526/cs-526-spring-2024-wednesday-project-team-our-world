@@ -6,12 +6,6 @@ public class MirrorScript : MonoBehaviour
 {
     int CurrentZRotation = 0;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     private void Update() {
         if (Input.GetKeyDown(KeyCode.E) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
             Rotate(CurrentZRotation - 90);
@@ -25,10 +19,6 @@ public class MirrorScript : MonoBehaviour
         GameManager.Instance.State = GameManager.GameState.PauseGame;
         StartCoroutine(CreateMirror(goalAngle));
         metric3(GameManager.Instance.CurrentPlatform);
-    }
-
-    private void OnCollisionEnter(Collision collision) {
-
     }
 
     IEnumerator CreateMirror(int goalAngle) {
