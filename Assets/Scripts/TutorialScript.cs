@@ -1,8 +1,6 @@
-using System.Collections;
+
 using System.Collections.Generic;
-using System.Net.Sockets;
 using UnityEngine;
-using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
 public class TutorialScript : MonoBehaviour
@@ -10,6 +8,7 @@ public class TutorialScript : MonoBehaviour
 
     public GameObject UI;
     bool lockout = false;
+    [SerializeField] Analytics analytics;
 
     private void OnCollisionEnter(Collision collision) {
         print("Entering Mirror World");
@@ -42,8 +41,8 @@ public class TutorialScript : MonoBehaviour
             analytics.AddAnalyticData(metric2Data, 1);
             analytics.AddAnalyticData(metric3Data, 2);
             analytics.AddAnalyticData(metric4Data, 3);
-            if (!locked) {
-                locked = true;
+            if (!lockout) {
+                lockout = true;
                 analytics.Send();
             }
 
