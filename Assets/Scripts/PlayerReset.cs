@@ -34,17 +34,26 @@ public class PlayerReset : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
             }
-
+            //metric 2
             analytics.AddAnalyticData($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}", 1);
-            analytics.AddAnalyticData($"-1", 0);
             
-            string dictionaryString = "";
+            //metric 1
+            string metric1String = $"{SceneManager.GetActiveScene().name}:\n";
+            foreach (KeyValuePair<string, float> pair in GameManager.Instance.platformTimes)
+            {
+                metric1String += $"{pair.Key}: {pair.Value}\n";
+            }
+            
+            analytics.AddAnalyticData(metric1String, 0);
+            
+            //metric 3
+            string metric3String = $"{SceneManager.GetActiveScene().name}:\n";
             foreach (KeyValuePair<string, int> pair in GameManager.Instance.platformRotateTimes)
             {
-                dictionaryString += $"{pair.Key}: {pair.Value}\n";
+                metric3String += $"{pair.Key}: {pair.Value}\n";
             }
-            Debug.Log(dictionaryString);
-            analytics.AddAnalyticData(dictionaryString, 2);
+            analytics.AddAnalyticData(metric3String, 2);
+
             analytics.AddAnalyticData($"-1", 3);
             analytics.Send();
 

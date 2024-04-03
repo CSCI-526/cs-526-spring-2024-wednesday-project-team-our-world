@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         } else {
             Instance = this;
         }
-        Instance.CurrentPlatform = "Ground";
+        Instance.CurrentPlatform = "1";
     }
     private void OnDestroy() {
         // Reset the instance if the object is destroyed
