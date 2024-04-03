@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6754,7 +6754,7 @@ Transform:
   m_GameObject: {fileID: 787906793}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.5, y: -21.1, z: 0}
+  m_LocalPosition: {x: 13.1, y: -1.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6944,9 +6944,9 @@ MonoBehaviour:
   respawnPoint:
   - {fileID: 787906794}
   - {fileID: 804750717}
-  mirrorWorldScript: {fileID: 1556285571}
-  mirrorScript: {fileID: 0}
-  analytics: {fileID: 0}
+  mirrorWorldScript: {fileID: 0}
+  mirrorScript: {fileID: 2005547252}
+  analytics: {fileID: 832818515}
 --- !u!114 &832818514 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3141368723665968830, guid: 832e6a7eac567004189e31343f0167b1,
@@ -13387,7 +13387,7 @@ GameObject:
   - component: {fileID: 1556285574}
   - component: {fileID: 1556285573}
   - component: {fileID: 1556285572}
-  - component: {fileID: 1556285571}
+  - component: {fileID: 1556285575}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -13411,22 +13411,6 @@ Transform:
   - {fileID: 584280016}
   m_Father: {fileID: 2005547251}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1556285571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556285569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a77e05b3ba80094eb15d3d1a8043872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelParent: {fileID: 2005547250}
-  UI: {fileID: 532996492}
-  debugAngle: 90
-  rotatedBy: 0
 --- !u!65 &1556285572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13498,6 +13482,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556285569}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1556285575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556285569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4228598796659b94a8c6f26defee0de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 532996492}
+  analytics: {fileID: 832818515}
 --- !u!1001 &1563283257
 PrefabInstance:
   m_ObjectHideFlags: 0

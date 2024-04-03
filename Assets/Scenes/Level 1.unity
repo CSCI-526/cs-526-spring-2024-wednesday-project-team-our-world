@@ -2298,7 +2298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 892864973}
-  analytics: {fileID: 0}
+  analytics: {fileID: 832818514}
 --- !u!1 &1455135577
 GameObject:
   m_ObjectHideFlags: 0
