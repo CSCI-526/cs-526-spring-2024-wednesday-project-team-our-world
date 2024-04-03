@@ -24,7 +24,7 @@ public class CheckpointScript : MonoBehaviour
     
         GameManager.Instance.checkpointUsed = true; 
         GameManager.Instance.checkpointZRotation = GameManager.Instance.currentZRotation;
-        StoreDeactivatedGroundObjects();
+        // StoreDeactivatedGroundObjects();
         gameObject.SetActive(false);
     }
 
