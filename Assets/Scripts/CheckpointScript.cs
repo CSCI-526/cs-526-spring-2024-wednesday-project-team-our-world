@@ -30,25 +30,6 @@ public class CheckpointScript : MonoBehaviour
 
     void StoreDeactivatedGroundObjects()
     {
-        // // Find the LevelParent GameObject
-        // GameObject horPlatform = GameObject.Find("Hor explode platform");
-
-        // if (horPlatform != null)
-        // {
-        //     // Get the number of children
-        //     int childCount = horPlatform.transform.childCount;
-
-        //     // Loop through all children
-        //     for (int i = 0; i < childCount; i++)
-        //     {
-        //         // Get the child GameObject
-        //         GameObject child = horPlatform.transform.GetChild(i).gameObject;
-
-        //         // Now you can do something with the child GameObject
-        //         // For example, print its name
-        //         Debug.Log(child.name + " " + child.activeInHierarchy);
-        //     }
-        // }
         // Get all GameObjects
         GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
 
@@ -63,6 +44,6 @@ public class CheckpointScript : MonoBehaviour
                 GameManager.Instance.deactivatedPlatforms.Add(obj);
             }
         }
-        Debug.Log("Deactivated platforms: " + GameManager.Instance.deactivatedPlatforms.Count);
+        //Debug.Log("Deactivated platforms: " + GameManager.Instance.deactivatedPlatforms.Count);
     }
 }
