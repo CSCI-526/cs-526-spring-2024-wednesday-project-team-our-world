@@ -16,6 +16,8 @@ public class ExplodePlatformScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        if (GameManager.Instance.checkpointUsed)
+            GameManager.Instance.deactivatedPlatforms.Add(gameObject);
         GameManager.Instance.CurrentPlatform = name;
         StartCoroutine(ChangeColorAfterCollision());
     }

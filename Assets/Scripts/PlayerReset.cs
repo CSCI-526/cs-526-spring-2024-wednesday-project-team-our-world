@@ -56,16 +56,11 @@ public class PlayerReset : MonoBehaviour
 
         // Wait until the game state is not PauseGame
         yield return new WaitUntil(() => GameManager.Instance.State != GameManager.GameState.PauseGame);
-
-        GameObject[] allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
         
         // Loop through all ground GameObjects
-        foreach (GameObject obj in allObjects)
+        foreach (GameObject obj in GameManager.Instance.deactivatedPlatforms)
         {
-            if (obj.tag == "Ground" && !obj.activeInHierarchy && !GameManager.Instance.deactivatedPlatforms.Contains(obj))
-            {
-                obj.GetComponent<ExplodePlatformScript>().Reset();
-            }
+            obj.GetComponent<ExplodePlatformScript>().Reset();
         }
 
         // Then set the player's position
