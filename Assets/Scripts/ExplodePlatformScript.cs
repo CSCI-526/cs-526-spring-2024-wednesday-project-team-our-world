@@ -30,7 +30,7 @@ public class ExplodePlatformScript : MonoBehaviour
             elapsed += Time.deltaTime;
             float normalizedTime = elapsed / timeToExplode;
             // Here Color.Lerp is used to interpolate the color
-            GetComponent<Renderer>().material.color = Color.Lerp(originalColor, Color.clear, normalizedTime);
+            GetComponent<Renderer>().material.color = Color.Lerp(originalColor, new Color(0, 0, 0, 0), normalizedTime);
             yield return null;
         }
         // yield return new WaitForSeconds(0);
