@@ -1,0 +1,3447 @@
+Level 1:
+1: 2
+Level 1:
+2: 1
+6: 1
+4: 11
+Level 1:
+2: 1
+6: 1
+4: 18
+Level 1:
+2: 1
+6: 1
+4: 17
+Level 1:
+2: 1
+6: 1
+4: 13
+Level 1:
+2: 1
+6: 1
+4: 34
+Level 1:
+2: 1
+6: 1
+4: 16
+Level 1:
+2: 1
+6: 1
+4: 35
+Level 1:
+2: 1
+6: 1
+4: 28
+Level 1:
+2: 1
+6: 1
+4: 33
+Level 1:
+2: 1
+6: 1
+4: 10
+Level 1:
+2: 1
+6: 1
+4: 19
+Level 1:
+2: 1
+6: 1
+4: 24
+Level 1:
+2: 1
+6: 1
+4: 6
+Level 1:
+2: 1
+6: 1
+4: 14
+Level 1:
+2: 1
+6: 1
+4: 2
+Level 1:
+2: 1
+6: 1
+4: 1
+Level 1:
+2: 1
+6: 1
+4: 25
+Level 1:
+2: 1
+6: 1
+4: 7
+Level 1:
+2: 1
+6: 1
+4: 4
+Level 1:
+2: 1
+6: 1
+4: 21
+Level 1:
+2: 1
+6: 1
+4: 5
+Level 1:
+2: 1
+6: 1
+4: 20
+Level 1:
+2: 1
+6: 1
+4: 15
+Level 1:
+2: 1
+6: 1
+4: 9
+Level 1:
+2: 1
+6: 1
+4: 8
+Level 1:
+2: 1
+6: 1
+4: 12
+Level 1:
+2: 1
+6: 1
+4: 31
+Level 1:
+2: 1
+6: 1
+4: 3
+Level 1:
+2: 1
+6: 1
+4: 32
+Level 1:
+2: 1
+6: 1
+4: 22
+Level 1:
+2: 1
+6: 1
+4: 23
+Level 1:
+2: 1
+6: 1
+4: 3
+Level 1:
+2: 1
+6: 1
+4: 17
+Level 1:
+2: 1
+6: 1
+4: 1
+Level 1:
+2: 1
+6: 1
+4: 30
+Level 1:
+2: 1
+6: 1
+4: 34
+Level 1:
+2: 1
+6: 1
+4: 8
+Level 1:
+2: 1
+6: 1
+4: 35
+Level 1:
+2: 1
+6: 1
+4: 5
+Level 1:
+2: 1
+6: 1
+4: 22
+Level 1:
+2: 1
+6: 1
+4: 18
+Level 1:
+2: 1
+6: 1
+4: 29
+Level 1:
+2: 1
+6: 1
+4: 21
+Level 1:
+2: 1
+6: 1
+4: 4
+Level 1:
+2: 1
+6: 1
+4: 33
+Level 1:
+2: 1
+6: 1
+4: 11
+Level 1:
+2: 1
+6: 1
+4: 24
+Level 1:
+2: 1
+6: 1
+4: 27
+Level 1:
+2: 1
+6: 1
+4: 16
+Level 1:
+2: 1
+6: 1
+4: 23
+Level 1:
+2: 1
+6: 1
+4: 14
+Level 1:
+2: 1
+6: 1
+4: 2
+Level 1:
+2: 1
+6: 1
+4: 7
+Level 1:
+2: 1
+6: 1
+4: 15
+Level 1:
+2: 1
+6: 1
+4: 25
+Level 1:
+2: 1
+6: 1
+4: 12
+Level 1:
+2: 1
+6: 1
+4: 9
+Level 1:
+2: 1
+6: 1
+4: 19
+Level 1:
+2: 1
+6: 1
+4: 13
+Level 1:
+2: 1
+6: 1
+4: 10
+Level 1:
+2: 1
+6: 1
+4: 20
+Level 1:
+2: 1
+6: 1
+4: 26
+Level 1:
+2: 1
+6: 1
+4: 6
+Level 1:
+Level 1:
+2: 1
+6: 1
+4: 1
+Level 1:
+2: 1
+6: 1
+4: 22
+Level 1:
+2: 1
+6: 1
+4: 15
+Level 1:
+2: 1
+6: 1
+4: 16
+Level 1:
+2: 1
+6: 1
+4: 14
+Level 1:
+2: 1
+6: 1
+4: 12
+Level 1:
+2: 1
+6: 1
+4: 19
+Level 1:
+2: 1
+6: 1
+4: 26
+Level 1:
+2: 1
+6: 1
+4: 18
+Level 1:
+2: 1
+6: 1
+4: 17
+Level 1:
+2: 1
+6: 1
+4: 6
+Level 1:
+2: 1
+6: 1
+4: 13
+Level 1:
+2: 1
+6: 1
+4: 20
+Level 1:
+2: 1
+6: 1
+4: 34
+Level 1:
+2: 1
+6: 1
+4: 36
+Level 1:
+2: 1
+6: 1
+4: 21
+Level 1:
+2: 1
+6: 1
+4: 4
+Level 1:
+2: 1
+6: 1
+4: 5
+Level 1:
+2: 1
+6: 1
+4: 25
+Level 1:
+2: 1
+6: 1
+4: 23
+Level 1:
+2: 1
+6: 1
+4: 9
+Level 1:
+2: 1
+6: 1
+4: 10
+Level 1:
+2: 1
+6: 1
+4: 24
+Level 1:
+2: 1
+6: 1
+4: 27
+Level 1:
+2: 1
+6: 1
+4: 29
+Level 1:
+2: 1
+6: 1
+4: 33
+Level 1:
+2: 1
+6: 1
+4: 2
+Level 1:
+2: 1
+6: 1
+4: 7
+Level 1:
+2: 1
+6: 1
+4: 31
+Level 1:
+2: 1
+6: 1
+4: 11
+Level 1:
+2: 1
+6: 1
+4: 8
+Level 1:
+2: 1
+6: 1
+4: 32
+Level 1:
+2: 1
+6: 1
+4: 28
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 1:
+1: 1
+5: 1
+Level 4:
+Level 4:
+Level 4:
+Level 4:
+Platform (4): 1
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 1
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 15
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 13
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 7
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 8
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 4
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 11
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 12
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 5
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 2
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 16
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 6
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 14
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 3
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 9
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 10
+Level 4:
+Platform (4): 1
+1: 1
+8: 2
+9: 7
+Platform (6): 2
+3: 1
+11: 17
+Level 4:
+Platform (4): 1
+1: 2
+Platform (5): 1
+Level 4:
+Platform (5): 1
+1: 2
+Platform (6): 1
+9: 2
+11: 2
+Level 4:
+Platform (5): 1
+1: 2
+Platform (6): 1
+9: 2
+11: 1
+Level 4:
+Level 4:
+Level 4:
+Platform (5): 1
+Level 4:
+Level 4:
+Level 4:
+Platform (4): 16
+Level 4:
+Platform (4): 17
+Level 4:
+Platform (4): 18
+Level 4:
+Platform (4): 21
+Level 4:
+Platform (4): 20
+Level 4:
+Platform (4): 19
+Level 4:
+Platform (4): 22
+Level 4:
+Platform (4): 23
+Level 4:
+Level 4:
+Platform (2): 1
+Level 4:
+1: 1
+Level 4:
+Level 4:
+Level 4:
+Platform (4): 1
+1: 1
+4: 2
+Level 4:
+Platform (4): 1
+1: 1
+4: 1
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 2
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 12
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 11
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 8
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 10
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 5
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 3
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 9
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 6
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 4
+Level 2 Hard:
+5: 1
+8: 1
+10: 3
+9: 1
+11: 2
+6: 7
+1: 7
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 3
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 4
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 6
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 5
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 7
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 8
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 9
+6: 7
+1: 12
+2: 1
+Level 2 Hard:
+5: 1
+8: 4
+10: 3
+9: 1
+11: 10
+6: 7
+1: 12
+2: 1
+Level 1:
+Level 2:
+4: 1
+Platform (7): 1
+Level 2:
+4: 1
+Platform (7): 5
+Level 2:
+4: 1
+Platform (7): 8
+Level 2:
+4: 1
+Platform (7): 6
+Level 2:
+4: 1
+Platform (7): 9
+Level 2:
+4: 1
+Platform (7): 7
+Level 2:
+4: 1
+Platform (7): 3
+Level 2:
+4: 1
+Platform (7): 2
+Level 2:
+4: 1
+Platform (7): 4
+Level 2:
+4: 1
+Platform (7): 10
+Level 4:
+Level 4:
+Level 4:
+Platform (4): 1
+1: 2
+Level 4:
+Platform (4): 1
+1: 2
+10: 1
+Platform (5): 1
+Platform (3): 1
+Level 4:
+Platform (4): 1
+1: 2
+Level 4:
+Level 4:
+Platform (4): 2
+1: 2
+10: 1
+Level 4:
+Platform (4): 1
+1: 2
+10: 1
+Level 4:
+Platform (1): 1
+1: 2
+10: 3
+Level 4:
+Platform (4): 2
+1: 2
+10: 3
+Platform (2): 2
+Level 2:
+1: 1
+Level 2:
+Level 2:
+4: 1
+Level 2:
+4: 2
+Level 2:
+4: 3
+Platform (7): 2
+Level 2:
+4: 3
+Platform (7): 1
+Level 2:
+4: 3
+Platform (7): 6
+Level 2:
+4: 3
+Platform (7): 3
+Level 2:
+4: 3
+Platform (7): 7
+Level 2:
+4: 3
+Platform (7): 4
+Level 2:
+4: 3
+Platform (7): 5
+Level 2:
+4: 3
+Platform (7): 10
+Level 2:
+4: 3
+Platform (7): 16
+Level 2:
+4: 3
+Platform (7): 9
+Level 2:
+4: 3
+Platform (7): 30
+Level 2:
+4: 3
+Platform (7): 11
+Level 2:
+4: 3
+Platform (7): 23
+Level 2:
+4: 3
+Platform (7): 32
+Level 2:
+4: 3
+Platform (7): 8
+Level 2:
+4: 3
+Platform (7): 21
+Level 2:
+4: 3
+Platform (7): 27
+Level 2:
+4: 3
+Platform (7): 14
+Level 2:
+4: 3
+Platform (7): 12
+Level 2:
+4: 3
+Platform (7): 28
+Level 2:
+4: 3
+Platform (7): 34
+Level 2:
+4: 3
+Platform (7): 24
+Level 2:
+4: 3
+Platform (7): 15
+Level 2:
+4: 3
+Platform (7): 25
+Level 2:
+4: 3
+Platform (7): 29
+Level 2:
+4: 3
+Platform (7): 17
+Level 2:
+4: 3
+Platform (7): 20
+Level 2:
+4: 3
+Platform (7): 22
+Level 2:
+4: 3
+Platform (7): 33
+Level 2:
+4: 3
+Platform (7): 13
+Level 2:
+4: 3
+Platform (7): 26
+Level 2:
+4: 3
+Platform (7): 18
+Level 2:
+4: 3
+Platform (7): 31
+Level 2:
+4: 3
+Platform (7): 19
+Level 2:
+4: 4
+Platform (7): 36
+Platform (5): 2
+Level 2:
+4: 4
+Platform (7): 36
+Platform (5): 3
+Level 2:
+4: 5
+Platform (7): 38
+Platform (5): 6
+Level 2:
+4: 5
+Platform (7): 38
+Platform (5): 5
+Level 4:
+Level 4:
+Level 4:
+Level 2:
+4: 1
+Platform (6): 29
+Level 2:
+4: 1
+Platform (6): 11
+Level 2:
+4: 1
+Platform (6): 32
+Level 2:
+4: 1
+Platform (6): 9
+Level 2:
+4: 1
+Platform (6): 20
+Level 2:
+4: 1
+Platform (6): 2
+Level 2:
+4: 1
+Platform (6): 24
+Level 2:
+4: 1
+Platform (6): 12
+Level 2:
+4: 1
+Platform (6): 28
+Level 2:
+4: 1
+Platform (6): 3
+Level 2:
+4: 1
+Platform (6): 15
+Level 2:
+4: 1
+Platform (6): 23
+Level 2:
+4: 1
+Platform (6): 17
+Level 2:
+4: 1
+Platform (6): 10
+Level 2:
+4: 1
+Platform (6): 21
+Level 2:
+4: 1
+Platform (6): 18
+Level 2:
+4: 1
+Platform (6): 14
+Level 2:
+4: 1
+Platform (6): 33
+Level 2:
+4: 1
+Platform (6): 4
+Level 2:
+4: 1
+Platform (6): 16
+Level 2:
+4: 1
+Platform (6): 13
+Level 2:
+4: 1
+Platform (6): 25
+Level 2:
+4: 1
+Platform (6): 5
+Level 2:
+4: 1
+Platform (6): 6
+Level 2:
+4: 1
+Platform (6): 1
+Level 2:
+4: 1
+Platform (6): 8
+Level 2:
+4: 1
+Platform (6): 7
+Level 2:
+4: 1
+Platform (6): 22
+Level 2:
+4: 1
+Platform (6): 27
+Level 4:
+Platform (4): 1
+1: 1
+8: 3
+Level 4:
+Platform (4): 1
+1: 1
+8: 4
+Level 2:
+4: 2
+Level 2:
+4: 2
+Level 2:
+4: 2
+5: 2
+Level 2:
+4: 2
+5: 2
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 3
+5: 2
+Platform (7): 35
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 4
+5: 2
+Platform (7): 70
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 2:
+4: 1
+Platform (7): 34
+Level 1:
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 2:
+4: 1
+Platform (7): 35
+Level 1:
+Level 1:
+2: 1
+Level 1:
+2: 2
+Level 2:
+4: 1
+7: 1
+Level 2:
+4: 1
+7: 2
+Platform (6): 1
+Level 2:
+4: 1
+7: 2
+Platform (6): 4
+Level 2:
+4: 1
+7: 2
+Platform (6): 5
+Level 2:
+4: 1
+7: 2
+Platform (6): 3
+Level 2:
+4: 1
+7: 2
+Level 2:
+4: 1
+7: 2
+Platform (6): 2
+Level 2:
+4: 1
+7: 2
+Platform (6): 9
+Level 2:
+4: 1
+7: 2
+Platform (6): 7
+Level 2:
+4: 1
+7: 2
+Platform (6): 6
+Level 2:
+4: 1
+7: 2
+Platform (6): 8
+Level 1:
+Level 1:
+2: 1
+Level 1:
+2: 2
+Level 2:
+4: 1
+7: 3
+Level 2:
+4: 1
+7: 2
+Level 2:
+4: 1
+7: 11
+Level 2:
+4: 1
+7: 1
+Level 2:
+4: 1
+7: 5
+Level 2:
+4: 1
+7: 6
+Level 2:
+4: 1
+7: 8
+Level 2:
+4: 1
+7: 7
+Level 2:
+4: 1
+7: 9
+Level 2:
+4: 1
+7: 10
+Level 2:
+4: 1
+7: 4
+Level 2 Hard:
+5: 1
+9: 1
+10: 3
+Level 2 Hard:
+5: 1
+9: 1
+10: 9
+Level 2 Hard:
+5: 1
+9: 1
+10: 2
+Level 2 Hard:
+5: 1
+9: 1
+10: 10
+Level 2 Hard:
+5: 1
+9: 1
+10: 8
+Level 2 Hard:
+5: 1
+9: 1
+10: 7
+Level 2 Hard:
+5: 1
+9: 1
+10: 4
+Level 2 Hard:
+5: 1
+9: 1
+10: 5
+Level 2 Hard:
+5: 1
+9: 1
+10: 6
+Level 2 Hard:
+5: 1
+9: 1
+10: 1
+Level 4:
+Level 4:
+Level 4:
+Level 4:
+Level 4:
+Platform (1): 1
+1: 1
+Level 1:
+Level 1:
+Level 2:
+4: 2
+Level 2:
+4: 1
+Level 2:
+4: 3
+Platform (7): 1
+Level 2:
+4: 3
+Platform (7): 2
+Level 2:
+4: 3
+Platform (7): 5
+Level 2:
+4: 3
+Platform (7): 6
+Level 2:
+4: 3
+Platform (7): 10
+Level 2:
+4: 3
+Platform (7): 7
+Level 2:
+4: 3
+Platform (7): 12
+Level 2:
+4: 3
+Platform (7): 11
+Level 2:
+4: 3
+Platform (7): 8
+Level 2:
+4: 3
+Platform (7): 4
+Level 2:
+4: 3
+Platform (7): 9
+Level 2:
+4: 3
+Platform (7): 3
+Level 2:
+4: 3
+Platform (7): 17
+Level 2:
+4: 3
+Platform (7): 21
+Level 2:
+4: 3
+Platform (7): 13
+Level 2:
+4: 3
+Platform (7): 19
+Level 2:
+4: 3
+Platform (7): 31
+Level 2:
+4: 3
+Platform (7): 27
+Level 2:
+4: 3
+Platform (7): 32
+Level 2:
+4: 3
+Platform (7): 20
+Level 2:
+4: 3
+Platform (7): 30
+Level 2:
+4: 3
+Platform (7): 24
+Level 2:
+4: 3
+Platform (7): 29
+Level 2:
+4: 3
+Platform (7): 33
+Level 2:
+4: 3
+Platform (7): 22
+Level 2:
+4: 3
+Platform (7): 26
+Level 2:
+4: 3
+Platform (7): 14
+Level 2:
+4: 3
+Platform (7): 18
+Level 2:
+4: 3
+Platform (7): 15
+Level 2:
+4: 3
+Platform (7): 16
+Level 2:
+4: 3
+Platform (7): 28
+Level 2:
+4: 3
+Platform (7): 23
+Level 2:
+4: 3
+Platform (7): 25
+Level 2:
+18: 2
+Level 2:
+18: 1
+Level 2:
+18: 2
+Level 2:
+18: 1
+Level 2:
+18: 2
+4: 1
+6: 2
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 3
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 5
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 8
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 10
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 4
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 6
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 9
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 7
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 18
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 25
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 13
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 15
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 35
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 17
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 14
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 31
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 26
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 19
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 16
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 29
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 24
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 33
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 23
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 22
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 21
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 27
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 12
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 34
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 11
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 30
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 20
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 32
+Platform (10): 1
+Level 2:
+18: 2
+4: 1
+6: 28
+Platform (10): 1
+Level 2:
+4: 1
+Platform (7): 7
+Level 2:
+4: 1
+Platform (7): 22
+Level 2:
+4: 1
+Platform (7): 24
+Level 2:
+4: 1
+Platform (7): 12
+Level 2:
+4: 1
+Platform (7): 5
+Level 2:
+4: 1
+Platform (7): 20
+Level 2:
+4: 1
+Platform (7): 13
+Level 2:
+4: 1
+Platform (7): 11
+Level 2:
+4: 1
+Platform (7): 19
+Level 2:
+4: 1
+Platform (7): 31
+Level 2:
+4: 1
+Platform (7): 18
+Level 2:
+4: 1
+Platform (7): 23
+Level 2:
+4: 1
+Platform (7): 17
+Level 2:
+4: 1
+Platform (7): 1
+Level 2:
+4: 1
+Platform (7): 29
+Level 2:
+4: 1
+Platform (7): 8
+Level 2:
+4: 1
+Platform (7): 2
+Level 2:
+4: 1
+Platform (7): 27
+Level 2:
+4: 1
+Platform (7): 16
+Level 2:
+4: 1
+Platform (7): 14
+Level 2:
+4: 1
+Platform (7): 30
+Level 2:
+4: 1
+Platform (7): 32
+Level 2:
+4: 1
+Platform (7): 9
+Level 2:
+4: 1
+Platform (7): 3
+Level 2:
+4: 1
+Platform (7): 25
+Level 2:
+4: 1
+Platform (7): 15
+Level 2:
+4: 1
+Platform (7): 6
+Level 2:
+4: 1
+Platform (7): 26
+Level 2:
+4: 1
+Platform (7): 10
+Level 2:
+4: 1
+Platform (7): 4
+Level 2:
+4: 1
+Platform (7): 21
+Level 2:
+4: 1
+Platform (7): 28
+Level 2:
+4: 1
+Platform (7): 33
+Level 2:
+4: 2
+Platform (7): 38
+Level 2:
+4: 2
+Platform (7): 48
+Level 2:
+4: 2
+Platform (7): 39
+Level 2:
+4: 2
+Platform (7): 35
+Level 2:
+4: 2
+Platform (7): 37
+Level 2:
+4: 2
+Platform (7): 36
+Level 2:
+4: 2
+Platform (7): 40
+Level 2:
+4: 2
+Platform (7): 46
+Level 2:
+4: 2
+Platform (7): 34
+Level 2:
+4: 2
+Platform (7): 54
+Level 2:
+4: 2
+Platform (7): 45
+Level 2:
+4: 2
+Platform (7): 47
+Level 2:
+4: 2
+Platform (7): 42
+Level 2:
+4: 2
+Platform (7): 51
+Level 2:
+4: 2
+Platform (7): 43
+Level 2:
+4: 2
+Platform (7): 44
+Level 2:
+4: 2
+Platform (7): 58
+Level 2:
+4: 2
+Platform (7): 52
+Level 2:
+4: 2
+Platform (7): 41
+Level 2:
+4: 2
+Platform (7): 49
+Level 2:
+4: 2
+Platform (7): 59
+Level 2:
+4: 2
+Platform (7): 55
+Level 2:
+4: 2
+Platform (7): 53
+Level 2:
+4: 2
+Platform (7): 57
+Level 2:
+4: 2
+Platform (7): 50
+Level 2:
+4: 2
+Platform (7): 56
+Level 2:
+4: 2
+Platform (7): 64
+Level 2:
+4: 2
+Platform (7): 66
+Level 2:
+4: 2
+Platform (7): 63
+Level 2:
+4: 2
+Platform (7): 61
+Level 2:
+4: 2
+Platform (7): 60
+Level 2:
+4: 2
+Platform (7): 62
+Level 2:
+4: 2
+Platform (7): 65
+Level 1:
+1: 4
+Level 1:
+1: 1
+5: 1
+Level 1:
+Red 3: 1
+6: 1
+Level 3:
+1: 1
+Level 1:
+1: 1
+5: 2
+3: 1
+Level 3:
+1: 1
+4: 4
+10: 1
+Platform (4): 1
+9: 50
+8: 2

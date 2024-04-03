@@ -1,22 +1,25 @@
 import matplotlib.pyplot as plt
 
-# Input string
-input_string = """
-Ground: 2
-3: 3
-1: 2
-5: 1
-"""
+# Read the file
+with open('metric3.txt', 'r') as file:
+    input_string = file.read()
 
-# Parse the input string into a dictionary
+# Parse the input string into a dictionary of dictionaries
 data = {}
+current_level = None
 for line in input_string.strip().split('\n'):
-    key, value = line.split(':')
-    data[key] = int(value)
+    if line.startswith('Level'):
+        current_level = line
+        data[current_level] = {}
+    else:
+        key, value = line.split(':')
+        data[current_level][key] = float(value)
 
-# Create the bar chart
-plt.bar(data.keys(), data.values())
-plt.xlabel('Keys')
-plt.ylabel('Values')
-plt.title('Bar Chart')
+# Create a bar chart for each level
+for level, level_data in data.items():
+    plt.figure()  # Create a new figure for each level
+    plt.bar(level_data.keys(), level_data.values())
+    plt.xlabel('Platforms #')
+    plt.ylabel('Values')
+    plt.title(level)
 plt.show()

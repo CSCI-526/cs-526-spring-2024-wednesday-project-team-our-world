@@ -1,25 +1,24 @@
 import matplotlib.pyplot as plt
+from collections import defaultdict, Counter
 
-# Example data
-x1 = [1, 2, 3, 4, 5]
-y1 = [40, 30, 55, 65, 90]
+# Read the file
+with open('metric4.txt', 'r') as file:
+    input_string = file.read()
 
-x2 = [1, 2, 3, 4, 5]
-y2 = [50, 40, 65, 85, 100]
+# Parse the input string into a dictionary of counters for each level
+data = defaultdict(Counter)
+for line in input_string.strip().split('\n'):
+    level, value = line.split(': ')
+    data[level][value] += 1
 
-# Create the plot for the first line
-plt.plot(x1, y1, label='Average Checkpoint Time')
+# Create a stacked bar chart for the data
+for i, (level, counts) in enumerate(data.items()):
+    plt.bar(i, counts['True'], color='blue')
+    plt.bar(i, counts['False'], bottom=counts['True'], color='red')
 
-# Create the plot for the second line
-plt.plot(x2, y2, label='Average Playtime')
-
-# Add title and labels
-plt.title('Average Checkpoint Time and Playtime')
-plt.xlabel('Level number')
-plt.ylabel('Time (in second)')
-
-# Add a legend
-plt.legend()
-
-# Show the plot
+plt.xticks(range(len(data)), data.keys())
+plt.xlabel('Levels')
+plt.ylabel('Counts')
+plt.title('Players reaching checkpoints vs not reaching checkpoints (level-wise )') 
+plt.legend(['Reach checkpoint', 'Did not reach checkpoint'])
 plt.show()
