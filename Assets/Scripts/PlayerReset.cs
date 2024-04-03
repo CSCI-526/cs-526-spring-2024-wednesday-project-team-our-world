@@ -15,46 +15,37 @@ public class PlayerReset : MonoBehaviour
 
     private void Update() {
         if (player.transform.position.y < resetHeight) {
-            
-            
-            // if (GameManager.Instance.CurrentRotation == 0) {
-            //     player.transform.position = respawnPoint[0].position;
-            // } else if (GameManager.Instance.CurrentRotation == 90) {
-            //     print("Case2");
-            //     player.transform.position = respawnPoint[1].position;
-            // }
-            
             if (GameManager.Instance.checkpoint == true) {
                 // Start the RespawnPlayer coroutine
                 StartCoroutine(RespawnPlayer());
-                
             }
             else {
                 // Reload the current scene
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
             }
+
+            //Analytics
             //metric 2
-            analytics.AddAnalyticData($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}", 1);
-            
+            string metric2Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}";
+            //metric 4
+            string metric4Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.checkpoint}";
             //metric 1
-            string metric1String = $"{SceneManager.GetActiveScene().name}:\n";
+            string metric1Data = $"{SceneManager.GetActiveScene().name}:\n";
             foreach (KeyValuePair<string, float> pair in GameManager.Instance.platformTimes)
             {
-                metric1String += $"{pair.Key}: {pair.Value}\n";
+                metric1Data += $"{pair.Key}: {pair.Value}\n";
             }
-            
-            analytics.AddAnalyticData(metric1String, 0);
-            
             //metric 3
-            string metric3String = $"{SceneManager.GetActiveScene().name}:\n";
+            string metric3Data = $"{SceneManager.GetActiveScene().name}:\n";
             foreach (KeyValuePair<string, int> pair in GameManager.Instance.platformRotateTimes)
             {
-                metric3String += $"{pair.Key}: {pair.Value}\n";
+                metric3Data += $"{pair.Key}: {pair.Value}\n";
             }
-            analytics.AddAnalyticData(metric3String, 2);
 
-            analytics.AddAnalyticData($"-1", 3);
+            analytics.AddAnalyticData(metric1Data, 0);
+            analytics.AddAnalyticData(metric2Data, 1);
+            analytics.AddAnalyticData(metric3Data, 2);
+            analytics.AddAnalyticData(metric4Data, 3);
             analytics.Send();
 
         }
