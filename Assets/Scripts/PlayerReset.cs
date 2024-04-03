@@ -44,7 +44,10 @@ public class PlayerReset : MonoBehaviour
             analytics.AddAnalyticData(metric2Data, 1);
             analytics.AddAnalyticData(metric3Data, 2);
             analytics.AddAnalyticData(metric4Data, 3);
-            analytics.Send();
+            if (!locked) {
+                locked = true;
+                analytics.Send();
+            }
         }
             
     }
@@ -69,7 +72,7 @@ public class PlayerReset : MonoBehaviour
         // Reset the player's movement
         player.GetComponent<PlayerMovement>().Reset();
 
-        
+        locked = false;
     }
 
 }
