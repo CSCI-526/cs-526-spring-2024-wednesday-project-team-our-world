@@ -24,6 +24,7 @@ public class MirrorScript : MonoBehaviour
     public void Rotate(int goalAngle) {
         GameManager.Instance.State = GameManager.GameState.PauseGame;
         StartCoroutine(CreateMirror(goalAngle));
+        metric3(GameManager.Instance.CurrentPlatform);
     }
 
     private void OnCollisionEnter(Collision collision) {
@@ -50,4 +51,18 @@ public class MirrorScript : MonoBehaviour
         GameManager.Instance.State = GameManager.GameState.InitialLevel;
     }
 
+    void metric3(string platformName) {
+        Debug.Log(platformName);
+        // Check if platformRotateTimes contains the current platform
+        if (GameManager.Instance.platformRotateTimes.ContainsKey(GameManager.Instance.CurrentPlatform))
+        {
+            // If it does, increment the value
+            GameManager.Instance.platformRotateTimes[GameManager.Instance.CurrentPlatform] += 1;
+        }
+        else
+        {
+            // If it doesn't, set the value to 1
+            GameManager.Instance.platformRotateTimes[GameManager.Instance.CurrentPlatform] = 1;
+        }
+    }
 }

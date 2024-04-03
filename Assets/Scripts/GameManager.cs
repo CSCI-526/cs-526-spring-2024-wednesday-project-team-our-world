@@ -19,6 +19,11 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> deactivatedPlatforms = new List<GameObject>();
 
+    //metric 1: time player stay on per stationary platform
+    public Dictionary<string, float> platformTimes = new Dictionary<string, float>();
+
+    //metric 3: Times of players use rotation on each platform
+    public Dictionary<string, int> platformRotateTimes = new Dictionary<string, int>();
     private void Awake() {
         
         if (Instance != null && Instance != this) {

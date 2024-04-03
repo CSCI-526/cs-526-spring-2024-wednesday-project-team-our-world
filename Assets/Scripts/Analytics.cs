@@ -20,7 +20,7 @@ public class Analytics : MonoBehaviour
     public void AddAnalyticData(string info, int slot) {
         if (slot > -1 && slot < information.Length) {
             information[slot] = info;
-            Debug.Log($"Added {information[slot]} to slot {slot}");
+                //Debug.Log($"Added {information[slot]} to slot {slot}");
         }
     }
 

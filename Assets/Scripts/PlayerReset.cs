@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-
 public class PlayerReset : MonoBehaviour
 {
 
@@ -38,7 +37,14 @@ public class PlayerReset : MonoBehaviour
 
             analytics.AddAnalyticData($"{SceneManager.GetActiveScene().name}: {GameManager.Instance.CurrentPlatform}", 1);
             analytics.AddAnalyticData($"-1", 0);
-            analytics.AddAnalyticData($"-1", 2);
+            
+            string dictionaryString = "";
+            foreach (KeyValuePair<string, int> pair in GameManager.Instance.platformRotateTimes)
+            {
+                dictionaryString += $"{pair.Key}: {pair.Value}\n";
+            }
+            Debug.Log(dictionaryString);
+            analytics.AddAnalyticData(dictionaryString, 2);
             analytics.AddAnalyticData($"-1", 3);
             analytics.Send();
 
