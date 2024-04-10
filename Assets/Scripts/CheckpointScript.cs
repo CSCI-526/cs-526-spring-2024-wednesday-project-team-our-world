@@ -18,7 +18,7 @@ public class CheckpointScript : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision) {
+    private void OnTriggerEnter(Collider other) {
         if (checkpointText != null)
             checkpointText.gameObject.SetActive(false);
     
