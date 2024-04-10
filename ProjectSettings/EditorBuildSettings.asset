@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Heena UPDATES/Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: 56635e1cfb0c4ce4d9e44103fe90c302
   - enabled: 1
-    path: Assets/Heena UPDATES/Level Selection.unity
+    path: Assets/Scenes/Level Selection.unity
     guid: 8cbc309b966efed42a8dad587303da21
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5.unity
     guid: 807fcdaecdabafd4f988acb83e5fdefa
+  - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: 127a1cde00b94264b8626935c5ba2d83
   m_configObjects: {}

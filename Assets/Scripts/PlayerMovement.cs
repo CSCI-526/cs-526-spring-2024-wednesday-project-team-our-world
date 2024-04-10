@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
 
     private bool lockout = false;
+    private bool jumpLockout = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -36,17 +37,19 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate() {
-
+        fixPlayerZ();
         if (GameManager.Instance.State != GameManager.GameState.PauseGame) {
 
             if (lockout) { 
                 lockout = false;
                 rb.WakeUp();
+                jumpLockout = true;
+                Invoke("unlockJump", 0.05f);
             }
 
             Move();
             // Jumping
-            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
+            if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && !jumpLockout)
                 Jump();
         } else {
             lockout = true;
@@ -62,14 +65,26 @@ public class PlayerMovement : MonoBehaviour
     void Jump() {
         if (!IsGrounded()) return;
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        jumpLockout = true;
+        Invoke("unlockJump", 0.05f);
     }
 
     bool IsGrounded() {
         return Physics.Raycast(transform.position, Vector3.down, raycastLen);
     }
 
+    void unlockJump() {
+        jumpLockout = false;
+    }
+
     public void Reset() {
         rb.Sleep();
+    }
+
+    void fixPlayerZ() {
+        if (transform.position.z != 0) {
+            transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        }
     }
 
 }

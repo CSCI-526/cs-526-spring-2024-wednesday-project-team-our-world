@@ -8,6 +8,9 @@ public class SceneTransitor : MonoBehaviour
     public void NextSceneButton(int levelnum)
     {
         SceneManager.LoadScene(levelnum);
+    }public void NextSceneButton(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
     }
 
     public void PauseTime()

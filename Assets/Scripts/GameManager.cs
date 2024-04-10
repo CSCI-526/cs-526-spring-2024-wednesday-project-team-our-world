@@ -42,4 +42,5 @@ public class GameManager : MonoBehaviour
             Instance = null;
         }
     }
+
 }
