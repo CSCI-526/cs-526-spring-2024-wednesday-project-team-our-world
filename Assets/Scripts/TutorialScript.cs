@@ -28,9 +28,11 @@ public class TutorialScript : MonoBehaviour
             string metric4Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.checkpointUsed}";
             //metric 1
             string metric1Data = $"{SceneManager.GetActiveScene().name}:\n";
-            foreach (KeyValuePair<string, float> pair in GameManager.Instance.platformTimes) {
+            metric1Data += GameManager.Instance.platformTime;
+            /*foreach (KeyValuePair<string, float> pair in GameManager.Instance.platformTimes) {
                 metric1Data += $"{pair.Key}: {pair.Value}\n";
-            }
+                
+            }*/
             //metric 3
             string metric3Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.numberOfQRotations}, {GameManager.Instance.numberOfERotations}";
             
