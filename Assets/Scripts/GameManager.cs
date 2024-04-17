@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     //metric 1: time player stay on per stationary platform
     public Dictionary<string, float> platformTimes = new Dictionary<string, float>();
+    public float platformTime = 0f;
 
     //metric 3: Times of players use rotation on each platform
     public Dictionary<string, int> platformRotateTimes = new Dictionary<string, int>();

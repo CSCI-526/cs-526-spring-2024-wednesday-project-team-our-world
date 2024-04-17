@@ -59,5 +59,6 @@ public class StationaryPlatformScript : MonoBehaviour
         {
             GameManager.Instance.platformTimes[key] = timeOnPlatform;
         }
+        GameManager.Instance.platformTime = timeOnPlatform;
     }
 }
