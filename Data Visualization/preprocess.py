@@ -1,21 +1,14 @@
-    # Open the file in read mode and read its contents
-with open('metric3.txt', 'r') as file:
-    content = file.read()
+# Open the input file in read mode and the output file in write mode
+with open('metric1.txt', 'r') as infile, open('output.txt', 'w') as outfile:
+    # Read the file line by line
+    for line in infile:
+        # If the line does not start with "Platform", write it to the output file
+        if not line.lstrip().startswith('Platform'):
+            outfile.write(line)
 
-# Replace all double quotes with nothing
-content = content.replace('"', '')
-
-# Open the file in write mode and write the modified content
-with open('metric3.txt', 'w') as file:
-    file.write(content)
-
-# Open the file in read mode and read its contents
-with open('metric3.txt', 'r') as file:
-    lines = file.readlines()
-
-# Filter out the empty lines
-lines = [line for line in lines if line.strip() != '']
-
-# Open the file in write mode and write the modified content
-with open('metric3.txt', 'w') as file:
-    file.writelines(lines)
+# Open the input file in read mode and the output file in write mode
+with open('metric1.txt', 'r') as infile, open('output.txt', 'w') as outfile:
+    # Read the file line by line
+    for line in infile:
+        # Replace commas with periods and write the line to the output file
+        outfile.write(line.replace(',', '.'))
