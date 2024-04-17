@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
 
     //metric 3: Times of players use rotation on each platform
     public Dictionary<string, int> platformRotateTimes = new Dictionary<string, int>();
+    public int numberOfQRotations = 0;
+    public int numberOfERotations = 0;
+
     private void Awake() {
         
         if (Instance != null && Instance != this) {

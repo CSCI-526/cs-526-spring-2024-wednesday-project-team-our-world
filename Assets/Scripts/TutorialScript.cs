@@ -32,10 +32,8 @@ public class TutorialScript : MonoBehaviour
                 metric1Data += $"{pair.Key}: {pair.Value}\n";
             }
             //metric 3
-            string metric3Data = $"{SceneManager.GetActiveScene().name}:\n";
-            foreach (KeyValuePair<string, int> pair in GameManager.Instance.platformRotateTimes) {
-                metric3Data += $"{pair.Key}: {pair.Value}\n";
-            }
+            string metric3Data = $"{SceneManager.GetActiveScene().name}: {GameManager.Instance.numberOfQRotations}, {GameManager.Instance.numberOfERotations}";
+            
 
             analytics.AddAnalyticData(metric1Data, 0);
             analytics.AddAnalyticData(metric2Data, 1);

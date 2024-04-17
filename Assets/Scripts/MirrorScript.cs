@@ -9,9 +9,11 @@ public class MirrorScript : MonoBehaviour
     private void Update() {
         if (Input.GetKeyDown(KeyCode.E) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
             Rotate(CurrentZRotation - 90);
+            GameManager.Instance.numberOfERotations += 1;
         }
         if (Input.GetKeyDown(KeyCode.Q) && GameManager.Instance.State != GameManager.GameState.PauseGame) {
             Rotate(CurrentZRotation + 90);
+            GameManager.Instance.numberOfQRotations += 1;
         }
     }
 
