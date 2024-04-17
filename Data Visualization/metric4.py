@@ -13,12 +13,13 @@ for line in input_string.strip().split('\n'):
 
 # Create a stacked bar chart for the data
 for i, (level, counts) in enumerate(data.items()):
-    plt.bar(i, counts['True'], color='blue')
-    plt.bar(i, counts['False'], bottom=counts['True'], color='red')
+    if level not in ['Level 5', 'Level 6']:  # Skip Level 5 and Level 6
+        plt.bar(i, counts['True'], color='blue')
+        plt.bar(i, counts['False'], bottom=counts['True'], color='orange')
 
 plt.xticks(range(len(data)), data.keys())
 plt.xlabel('Levels')
 plt.ylabel('Counts')
-plt.title('Players reaching checkpoints vs not reaching checkpoints (level-wise )') 
-plt.legend(['Reach checkpoint', 'Did not reach checkpoint'])
+plt.title('The number of times played before vs after the checkpoint (level-wise )') 
+plt.legend(['The number of times played after the checkpoint', 'The number of times played before the checkpoint'])
 plt.show()
