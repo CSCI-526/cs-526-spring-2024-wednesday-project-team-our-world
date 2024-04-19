@@ -3740,6 +3740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3096897465300450201, guid: 4cb8b6041d02db3489374cdd37d11404,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096897465300450201, guid: 4cb8b6041d02db3489374cdd37d11404,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -3767,6 +3772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SceneTransitor, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096897465300450201, guid: 4cb8b6041d02db3489374cdd37d11404,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 3096897465300450201, guid: 4cb8b6041d02db3489374cdd37d11404,
         type: 3}
@@ -3896,7 +3906,7 @@ PrefabInstance:
     - target: {fileID: 7178889481418066299, guid: 4cb8b6041d02db3489374cdd37d11404,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level 5
+      value: Level 2
       objectReference: {fileID: 0}
     - target: {fileID: 7178889481418066299, guid: 4cb8b6041d02db3489374cdd37d11404,
         type: 3}
