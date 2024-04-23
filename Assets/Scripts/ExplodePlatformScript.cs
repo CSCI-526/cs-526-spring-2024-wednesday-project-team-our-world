@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ExplodePlatformScript : MonoBehaviour
 {   
-    private float timeToExplode = 1.0f;
+    private float timeToExplode = 1.25f;
     // Start is called before the first frame update
     Renderer r;
     Collider c;
