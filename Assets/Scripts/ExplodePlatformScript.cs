@@ -36,12 +36,12 @@ public class ExplodePlatformScript : MonoBehaviour
             yield return null;
         }
         // yield return new WaitForSeconds(0);
-        c.isTrigger = true;
+        c.enabled = false;
     }
 
     public void Reset() {
         r.material.color = Color.red;
-        c.isTrigger = false;
+        c.enabled = true;
     }
 
 }
