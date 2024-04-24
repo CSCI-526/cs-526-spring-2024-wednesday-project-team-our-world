@@ -5,7 +5,7 @@ using TMPro;
 
 public class TextAppearScript : MonoBehaviour
 {
-    public TextMeshPro collisionText;  // Assign this in the inspector
+    public TextMeshProUGUI collisionText;  // Assign this in the inspector
 
     void OnCollisionEnter(Collision collision)
     {
