@@ -44,7 +44,7 @@ public class StationaryPlatformScript : MonoBehaviour
     void OnCollisionExit(Collision collision)
     {
         isPlayerOnPlatform = false;
-        Debug.Log(gameObject.name + ": " + timeOnPlatform);
+        // Debug.Log(gameObject.name + ": " + timeOnPlatform);
         metric1();
         timeOnPlatform = 0f;
     }

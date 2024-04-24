@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate() {
         fixPlayerZ();
+        print($"Jumpable?: {IsGrounded()}");
         if (GameManager.Instance.State != GameManager.GameState.PauseGame) {
 
             if (lockout) { 
@@ -81,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     bool IsGrounded() {
-        return Physics.Raycast(transform.position, Vector3.down, raycastLen) && isColliding;
+        return Physics.Raycast(transform.position, Vector3.down, raycastLen) /*&& isColliding*/;
     }
 
     void unlockJump() {
