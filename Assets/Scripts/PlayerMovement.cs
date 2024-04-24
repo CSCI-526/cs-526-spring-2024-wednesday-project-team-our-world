@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     private bool lockout = false;
     private bool jumpLockout = false;
 
+    private bool isColliding = false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -57,6 +59,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        isColliding = true;
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        isColliding = false;
+    }
+
     void Move() {
         Vector3 movement = new Vector3(XIntent, 0f, 0f) * moveSpeed * Time.deltaTime;
         transform.Translate(movement);
@@ -70,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     bool IsGrounded() {
-        return Physics.Raycast(transform.position, Vector3.down, raycastLen);
+        return Physics.Raycast(transform.position, Vector3.down, raycastLen) && isColliding;
     }
 
     void unlockJump() {
